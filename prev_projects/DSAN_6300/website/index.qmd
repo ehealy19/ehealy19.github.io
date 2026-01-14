@@ -1,0 +1,146 @@
+---
+title: ""
+format:
+    html:
+        embed-resources: true
+---
+
+<h1 style="text-align:center;"> April Showers Bring May Delays: <br>
+Optimizing Travel and Avoiding Delays for the Month of May  </h1>
+<h2 style="text-align:center;"> Lizzie Healy </h2>
+
+![](./assets/Dept_of_transport.svg){fig-align="center" width="150"}
+
+
+## Explanation of Project
+
+The following sections outline recommendations for how and when to travel based on data collected for the month of **May in 2023**. 
+
+The data comes from the United States Department of Transportation's Bureau of Transportation Statistics @data. It details Passenger Travel that is reported by the US air carriers. The data is meant to measure on-time performance of aircrafts and the distrribution of **delays across airports and airlines**. In addition, it includes information on the time period, the origin and destination airport, the airline, cancellations, flight summaries, and diversions. The data is reported on a monthly basis and each observations represents a single flight.
+
+With this collected data, the following sections will investigate the **major contributors to delays and which airports and airlines are to be avoided**. It will also look at time trends in terms of the best days to travel. The data only encompasses previous trends in the month of May, thus, this project is best suited for a person looking to travel in May and hoping to avoid massive delays and travel issues. 
+
+So **when and how should you travel?** Scroll through to find out.
+
+## Travel Days
+
+The first question to answer is what day of the week you should travel and, furthermore, what specific date should you travel?
+
+<br>
+
+![](./output/prob7_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 1.** Average Number of Flights over Preceding 3 Days @prob7 </p>
+
+<br>
+
+In the above figure 1, we see that the minimum day for average number of flights is May 30th. What this indicates is that the 3 days preceding (ie. May 27th, 28th, and 29th) have the lowest average number of flights over the course of May. On the other side, we see that May 26th has the highest three days preceding average, thus May 23rd, 24th, and 25th are the busiest days in terms of number of flights. With these two pieces of information in mind, it seems **late May after the 26th is the best time** to travel. Around May 8th, May 16th, and May 23rd are also good days to partake in air travel. Finally, May **23-27 are the worst days** to travel. 
+
+![](./output/prob3_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 2.** Number of flights by all Airlines @prob3 @prob3_2 </p>
+
+<br>
+
+Moving more in-depth to the specific days of the week, we see in Figure 2 that based on number of flights the **busiest day of the week is Monday**, followed closely by Wednesday. The **best day is Saturday**, with Sunday coming in at the second best day. The other days, Tuesday, Thursday, and Friday are somewhat neutral. 
+
+## Airline
+
+With timing in mind, you now have to buy a ticket and decide which airline to book with. The consideration is often based on availability and pricing, but it is also important to arrive on-time and avoid being stuck at the airport all day, so choosing a reliable airline matters.
+
+<br>
+
+![](./output/prob1_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 3.** Maximal Departure Delay by Airline @prob1 </p>
+
+<br>
+
+Here, we see the airlines with the maximal departure delay, meaning the airline with the single longest delay for a flight takeoff. We see that **American Airlines has the highest delay time**, coming in at over 3000 minutes or about 50 hours. Allegiant Air and JetBlue Airways come in second and third with delay times around 1500 mins (~25 hours). 
+
+<br>
+
+![](./output/prob2_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 4.** Maximal Early Departure by Airline @prob2 </p>
+
+<br>
+
+On the other side of things, we see the airlines with the maximal early departure delay, meaning the airline with the single earliest takeoff for a flight. This airline is **Frontier Airlines, which took off an hour early**, followed by Alaska Airlines at about 55 minutes, followed by SkyWest Airlines at about 40 minutes early. Interestingly, we see that **SkyWest has the most inconsistent** departure times as they come in 4th for longest delay and 3rd for earliest delay.
+
+
+## Airport
+
+Another important consideration is the specific airport to depart from. For most people this is a choice of the closest airport to their home, however, when you live in a large metropolitan area and have a choice of travelling a bit further to a different airport it may save you time in the long run. It is also important to consider the airport you may be passing through in you layover as delays are particularly difficult in this situation. 
+
+<br>
+
+![](./output/prob4_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 5.** Airport with Highest Average Departure Delay @prob4 </p>
+
+<br>
+
+Our first consideration is Figure 5, which shows the worst airport is terms of average depature delay. This airport is the Lehigh Valley International Airport in Pennsylvania, with **average delays of over 2 hours**. In the case of needing to fly in this area, it may be worth the hour trip to Philadelphia International Airport to avoid some delays.
+
+<br>
+
+![](./output/prob5_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 6.** Average Departure Delay by Airline and Airport @prob5 </p>
+
+<br>
+
+Next, we see the average departure delay by the combination of an Airline and Airport. It seems that for Frontier Airlines, the worst airport is the **Hartsfield-Jackson Atlanta International Aiport**. For Allegiant Airlines, the Lehigh Valley International Airport again shows major delays. The Lehigh Valley International Airport also appears with SkyWest and PSA Airlines. The Albuquerque International Airport appears for American Airlines, JetBlue, Spirit Airlines, Delta Air Lines, and United Air Lines. Overall, these three airports are a good idea to avoid, especially, if flying with one of the airline combinations listed.
+
+<br>
+
+![](./output/prob6_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 7.** Top and Bottom 5 Airports for Average Departure Delay @prob6 </p>
+
+<br>
+
+Finally, we look at the overall 5 worst and best airports for departure delays. The **worst overall airport is the Dallas/Fort Worth** International Aiport, followed closely by Denver International and again we see the Hartsfield-Jackson Atlanta International showing major delays.
+
+In terms of efficient airports, Greater Rochester International, James M Cox/Dayton International, Merie K Mudhole Smith, Joe Foss Field, and Rochester International are reliable airports for getting airplanes off the ground on time.
+
+
+## Other Considerations
+
+Finally, we investigate cancellations of flights, which can be an even bigger headache than a departure delay. For this we attempt to discover the main reasons for cancellations across all airports and airlines. 
+
+| Cancellation | Count |
+| ---| ---|
+| Not Canceled | 576,679|
+| Cancelled | 3,310 |
+
+<p style='text-align: center; font-size: 10pt;'> **Table 1.** Number of Flights Cancelled. </p>
+
+We see that, thankfully, the majority of flights are able to take off (although many experience delays) and that only about 3,000 flights during the month of May were forced to be cancelled, which equates to only a **0.57% cancellation rate**.
+
+![](./output/prob6_2_fig.png)
+<p style='text-align: center; font-size: 10pt;'> **Figure 8.** Percentage of Cancellations by Reasons @prob6_2 </p>
+
+Figure 8 shows that, unsurprisingly, the **biggest contributor to cancellations is weather**. This is likely due to the number of rain and thunderstorms we see in the height of spring in May. This is followed by National Air System delays, which means that Air Traffic Control is delaying the flight to cancellation because of air traffic volumne, runway issues, or other safety hazards. In third is Carrier delays, which means the Airline itself cancelled the flight for a variety of issues including mechanical issues, short staffing, or fueling issues. Finally, issues of security account for only 2.4% of cancelled flights.
+
+## Final Recommendation
+
+Ultimately, the choice to travel will depend on the availability of flights, specific geographic location, and holidays and events that dictate travel. In addition, we can never fully predict weather and other extenuating circumstances that will cause delays, cancellations, and other travel day headaches. 
+
+However, there is no harm in making an informed decision based on historic data about flight patterns and departure delay trends. Thus, for a person looking to travel in the month of May, I offer these **basic recommendations to hopefully make travel slightly more efficient**:
+
+1. Travel on Saturday or Sunday.
+2. Avoid May 23-27 if possible.
+3. Stay away from American Airlines, Allegiant Air, and JetBlue if possible.
+4. Never use the Lehigh Valley International Airport (travel to PHL), Hartsfeld-Jackson Atlanta International, or Albuqerque International.
+5. Use Rochester International (MN), Joe Foss Field (SD), Merle K Mudhole Smith (AK), James M Cox/Dayton International (OH), or Greater Rochester International (NY) if in these areas.
+6. Stay ahead of the forecast and try to avoid big storms.
+7. Arrive enough in advance in case delays do occur.
+
+Other than that, stay prepared for delays and cancellations as the data shows that overall, air travel is an unreliable and seldom on-time type of travel.
+
+<br>
+
+![](./assets/airplane.jpg){fig-align="center" width="200"}
+
+<br>
+<br>
+
+
+### References
+
+
