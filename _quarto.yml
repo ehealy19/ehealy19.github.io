@@ -1,11 +1,12 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "Lizzie Healy"
   navbar:
-    background: primary
-    search: false
     left:
       - text: "Home"
         href: index.qmd
