@@ -6,4 +6,262 @@ title: "Previous Projects"
 
 This page showcases my completed projects from various courses and endeavors.
 
-*More projects coming soon...*
+### DSAN 5000: Data Science Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Project Website:**
+```{=html}
+<iframe src="prev_projects/DSAN_5000/index.html" width="100%" height="600px"></iframe>
+```
+
+**Presentation:**
+```{=html}
+<iframe src="prev_projects/DSAN_5000/Presentation.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 5100: Final Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Arrest Rates Report:**
+```{=html}
+<iframe src="prev_projects/DSAN_5100/5100%20Final%20Project%20-%20Arrest%20Rates.pdf" width="100%" height="600px"></iframe>
+```
+
+**Final Report:**
+```{=html}
+<iframe src="prev_projects/DSAN_5100/DSAN_5100_Report.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 5200: Final Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Project Report:**
+```{=html}
+<iframe src="prev_projects/DSAN_5200/final_combined.html" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 5300: Final Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Final Report:**
+```{=html}
+<iframe src="prev_projects/DSAN_5300/Report_Final.pdf" width="100%" height="600px"></iframe>
+```
+
+**Poster:**
+```{=html}
+<iframe src="prev_projects/DSAN_5300/5300_poster.pptx.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 5400: Presentation
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Presentation:**
+```{=html}
+<iframe src="prev_projects/DSAN_5400/DSAN%205400%20Presentation.pptx.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 5650: Project Website
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Project Website:**
+```{=html}
+<iframe src="prev_projects/DSAN_5650/index.html" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 6000: Project Website
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Project Website:**
+```{=html}
+<iframe src="prev_projects/DSAN_6000/index.html" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 6300: Project Website
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Project Website:**
+```{=html}
+<iframe src="prev_projects/DSAN_6300/index.html" width="100%" height="600px"></iframe>
+```
+
+---
+
+### DSAN 6600: Group Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Presentation:**
+```{=html}
+<iframe src="prev_projects/DSAN_6600/6600_group4_presentation.pdf" width="100%" height="600px"></iframe>
+```
+
+**Final Report:**
+```{=html}
+<iframe src="prev_projects/DSAN_6600/Grp4_Final_Report.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Economics 203: Team Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Econ_203/TeamCurran_Installment%204.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Economics 304: Final Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Econ_304/Healy-Final%20Project.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Economics 384: Research Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Research Paper:**
+```{=html}
+<iframe src="prev_projects/Econ_384/Research%20Paper.pdf" width="100%" height="600px"></iframe>
+```
+
+**Final Presentation:**
+```{=html}
+<iframe src="prev_projects/Econ_384/Final%20Presentation.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Economics 396: Thesis
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Econ_396/Elizabeth%20Healy_Thesis.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Math 210: Optimization Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Math_210/Optimization%20Project%20Proposal-2.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Math 210 (Section 2): Final Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Math_210_2/Healy-Final%20Project.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Math 382: Research Project
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+**Final Paper:**
+```{=html}
+<iframe src="prev_projects/Math_382/Healy-Research%20Project%20Final.pdf" width="100%" height="600px"></iframe>
+```
+
+**Final Presentation:**
+```{=html}
+<iframe src="prev_projects/Math_382/Healy-Final%20Presentation.pdf" width="100%" height="600px"></iframe>
+```
+
+---
+
+### Scholarship: Home Page
+
+**Description:**
+Add a brief description here.
+
+**Materials:**
+
+```{=html}
+<iframe src="prev_projects/Scholarship/home.html" width="100%" height="600px"></iframe>
+```
