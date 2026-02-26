@@ -1,0 +1,22 @@
+---
+title: "Lizzie Healy"
+format:
+  html:
+    css: styles.css
+---
+
+## Welcome
+
+Hi! I'm Lizzie Healy, a data scientist and developer passionate about solving problems with data and technology.
+
+## About Me
+
+I'm interested in data science, machine learning, and full-stack development. I enjoy building projects that combine technical skills with creative problem-solving.
+
+## Get In Touch
+
+Feel free to reach out to me via [email](mailto:your-email@example.com) or connect with me on [LinkedIn](https://linkedin.com) or [GitHub](https://github.com).
+
+---
+
+*Last updated: February 2026*
