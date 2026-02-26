@@ -9,6 +9,10 @@ format:
 
 Hi! I'm Lizzie Healy, a data scientist and developer passionate about solving problems with data and technology.
 
+### Quick Links
+- [Current Projects](curr_projects.html)
+- [Previous Projects](prev_projects.html)
+
 ## About Me
 
 I'm interested in data science, machine learning, and full-stack development. I enjoy building projects that combine technical skills with creative problem-solving.

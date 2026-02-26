@@ -1,0 +1,14 @@
+---
+title: "Current Projects"
+format:
+  html:
+    css: styles.css
+---
+
+[← Back to Home](index.html)
+
+## Current Projects
+
+This page showcases what I'm working on right now.
+
+*More projects coming soon...*
