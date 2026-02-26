@@ -3,9 +3,8 @@ title: "Current Projects"
 format:
   html:
     css: styles.css
+    include-before-body: nav-curr.html
 ---
-
-[← Back to Home](index.html)
 
 ## Current Projects
 

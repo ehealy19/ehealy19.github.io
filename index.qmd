@@ -3,15 +3,12 @@ title: "Lizzie Healy"
 format:
   html:
     css: styles.css
+    include-before-body: nav.html
 ---
 
 ## Welcome
 
 Hi! I'm Lizzie Healy, a data scientist and developer passionate about solving problems with data and technology.
-
-### Quick Links
-- [Current Projects](curr_projects.html)
-- [Previous Projects](prev_projects.html)
 
 ## About Me
 
