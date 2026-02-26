@@ -1,9 +1,5 @@
 ---
 title: "Previous Projects"
-format:
-  html:
-    css: styles.css
-    include-before-body: nav-prev.html
 ---
 
 ## Previous Projects

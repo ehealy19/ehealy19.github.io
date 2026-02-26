@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Lizzie Healy"
+  navbar:
+    background: primary
+    search: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Current Projects"
+        href: curr_projects.qmd
+      - text: "Previous Projects"
+        href: prev_projects.qmd
+
+format:
+  html:
+    css: styles.css
+    theme: default
+    toc: false
