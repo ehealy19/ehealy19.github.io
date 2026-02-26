@@ -6,4 +6,13 @@ title: "Current Projects"
 
 This page showcases what I'm working on right now.
 
-*More projects coming soon...*
+### DSAN 5550: Climate Change and Sustainability
+
+**Description:**
+A research project examining climate change impacts and sustainability solutions. This project involved analyzing climate data, developing visualizations, and creating a comprehensive research paper and poster presentation.
+
+**Materials:**
+- [Climate Poster](curr_projects/DSAN_5550/Healy_5550_Climate_Poster.pdf)
+- [Final Paper](curr_projects/DSAN_5550/Healy_Final_Paper.pdf)
+
+---
