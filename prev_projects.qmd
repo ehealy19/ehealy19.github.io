@@ -22,9 +22,17 @@ Questions to Investigate:
 [map][data]
 
 **Project Website:**
-```{=html}
-<iframe src="prev_projects/DSAN_5000/index.html" width="100%" height="600px"></iframe>
-```
+[Project Website](https://ehealy.georgetown.domains/Yelp/)
+<div class="project-preview">
+  <iframe
+    src="https://ehealy.georgetown.domains/Yelp/"
+    title="Website preview"
+    width="100%"
+    height="600"
+    style="border: 0; border-radius: 12px;"
+    loading="lazy"
+  ></iframe>
+</div>
 
 **Presentation:**
 ```{=html}
@@ -121,9 +129,16 @@ Add a brief description here.
 **Materials:**
 
 **Project Website:**
-```{=html}
-<iframe src="prev_projects/DSAN_6000/index.html" width="100%" height="600px"></iframe>
-```
+<div class="project-preview">
+  <iframe
+    src="https://samyuvakkalanka.georgetown.domains/dsan_6000/"
+    title="Website preview"
+    width="100%"
+    height="600"
+    style="border: 0; border-radius: 12px;"
+    loading="lazy"
+  ></iframe>
+</div>
 
 ---
 
@@ -135,9 +150,17 @@ Add a brief description here.
 **Materials:**
 
 **Project Website:**
-```{=html}
-<iframe src="prev_projects/DSAN_6300/index.html" width="100%" height="600px"></iframe>
-```
+
+<div class="project-preview">
+  <iframe
+    src="https://ehealy.georgetown.domains/SQL/"
+    title="Website preview"
+    width="100%"
+    height="600"
+    style="border: 0; border-radius: 12px;"
+    loading="lazy"
+  ></iframe>
+</div>
 
 ---
 
@@ -168,9 +191,16 @@ Add a brief description here.
 
 **Materials:**
 
-```{=html}
-<iframe src="prev_projects/Scholarship/home.html" width="100%" height="600px"></iframe>
-```
+<div class="project-preview">
+  <iframe
+    src="https://ehealy.georgetown.domains/Scholarship/home.html"
+    title="Website preview"
+    width="100%"
+    height="600"
+    style="border: 0; border-radius: 12px;"
+    loading="lazy"
+  ></iframe>
+</div>
 
 ---
 
