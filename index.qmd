@@ -4,11 +4,27 @@ title: "Lizzie Healy"
 
 ## Welcome
 
-Hi! I'm Lizzie Healy, a data scientist and developer passionate about solving problems with data and technology.
+Hi! I'm Lizzie Healy, a data scientist/analyst passionate about solving problems with data and technology.
+
+Name
+Aspiring data scientist
+Linkedin
+Gmail
+Haverford page (?)
+
 
 ## About Me
 
-I'm interested in data science, machine learning, and full-stack development. I enjoy building projects that combine technical skills with creative problem-solving.
+I am currently pursuing a Master of Science in the Data Science and Analytics program at Georgetown University. I previously attended Haverford College where I earned a B.A. in Quantitative Economics with a minor in Applied Mathematics. 
+
+I am particularly passionate about data accuracy and pre-processing and enjoy making data accessible through clear presentation and communication of results.
+
+Please feel free to browse my current and previous projects and don't hesitate to reach out with any questions!
+[Haverford logo] [Georgetown logo] – both are hyperlinks to department pages
+Embedded resume
+
+
+I'm interested in data science and machine learning. I enjoy building projects that combine technical skills with creative problem-solving.
 
 ## Get In Touch
 
@@ -16,4 +32,4 @@ Feel free to reach out to me via [email](mailto:your-email@example.com) or conne
 
 ---
 
-*Last updated: February 2026*
+*Last updated: August 2026*
