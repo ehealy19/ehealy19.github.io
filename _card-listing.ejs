@@ -1,0 +1,28 @@
+<%
+// Card template for the Projects page and the home page's "Recent work".
+// Quarto treats this output as markdown, so keep every line unindented.
+// template-params: featured: true  -> only show projects marked `featured: true`
+var onlyFeatured = (typeof templateParams !== "undefined") && templateParams && templateParams.featured;
+var keys = { "Data Science": "ds", "Economics": "econ", "Mathematics": "math", "Computer Science": "cs" };
+%>
+<div class="lh-grid">
+<% for (var i = 0; i < items.length; i++) {
+var item = items[i];
+if (onlyFeatured && !item.featured) { continue; }
+var subject = (item.categories && item.categories.length) ? item.categories[0] : "Data Science";
+var key = keys[subject] || "ds";
+var tools = item.tools || [];
+%>
+<a class="lh-card" href="<%= item.path %>" data-subject="<%- subject %>" style="--c: var(--<%= key %>)">
+<span class="lh-badges"><% if (item.featured) { %><span class="lh-badge">Recent</span><% } %><% if (item.review) { %><span class="lh-badge draft">draft text</span><% } %></span>
+<span class="lh-thumb"><% if (item.image) { %><img src="<%= item.image %>" alt="" loading="lazy"><% } %><% if (item.kind) { %><span class="lh-kind"><%- item.kind %></span><% } %></span>
+<span class="lh-card-body">
+<span class="lh-meta"><span class="subj"><%- subject %></span><span><%- item.course %><% if (item.term) { %> · <%- item.term %><% } %></span></span>
+<span class="lh-title"><%- item.title %></span>
+<span class="lh-desc"><%- item.description %></span>
+<span class="lh-tools"><% for (var j = 0; j < tools.length; j++) { %><span class="lh-tool"><%- tools[j] %></span><% } %></span>
+</span>
+</a>
+
+<% } %>
+</div>

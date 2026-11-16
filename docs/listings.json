@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/greener-pastures/index.html",
+      "/projects/digital-footprints/index.html",
+      "/projects/may-delays/index.html",
+      "/projects/leading-ladies/index.html",
+      "/projects/economics-of-film/index.html",
+      "/projects/decoding-the-divine/index.html",
+      "/projects/movie-recommender/index.html",
+      "/projects/aid-workers/index.html",
+      "/projects/dmv-arrests/index.html",
+      "/projects/food-for-thought/index.html",
+      "/projects/womens-travel-guide/index.html",
+      "/projects/behind-the-box-office/index.html",
+      "/projects/cutting-the-cheese/index.html",
+      "/projects/wordle/index.html",
+      "/projects/minimum-spanning-trees/index.html",
+      "/projects/act-39/index.html",
+      "/projects/salaries-and-sports/index.html",
+      "/projects/solow-swan/index.html",
+      "/projects/education-happiness/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/greener-pastures/index.html",
+      "/projects/digital-footprints/index.html",
+      "/projects/may-delays/index.html",
+      "/projects/leading-ladies/index.html",
+      "/projects/economics-of-film/index.html",
+      "/projects/decoding-the-divine/index.html",
+      "/projects/movie-recommender/index.html",
+      "/projects/aid-workers/index.html",
+      "/projects/dmv-arrests/index.html",
+      "/projects/food-for-thought/index.html",
+      "/projects/womens-travel-guide/index.html",
+      "/projects/behind-the-box-office/index.html",
+      "/projects/cutting-the-cheese/index.html",
+      "/projects/wordle/index.html",
+      "/projects/minimum-spanning-trees/index.html",
+      "/projects/act-39/index.html",
+      "/projects/salaries-and-sports/index.html",
+      "/projects/solow-swan/index.html",
+      "/projects/education-happiness/index.html"
+    ]
+  }
+]

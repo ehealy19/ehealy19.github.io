@@ -1,0 +1,27 @@
+---
+title: "Wordle in Java"
+description: >-
+  Recreates the New York Times Wordle game in Java: a Wordle class for game logic and
+  guess feedback, a CSVReader for the word list, and ANSI color codes to show feedback in
+  the terminal.
+categories: [Computer Science]
+date: 2023-11-30
+image: thumb.jpg
+course: "COMP SCI 106"
+term: "Fall 2023"
+team: "With Emily Oh"
+kind: "Code + slides"
+tools: ["Java", "Data structures"]
+materials:
+  - label: "Write-up"
+    file: write-up.pdf
+    type: pdf
+  - label: "Slides"
+    file: slides.pdf
+    type: pdf
+  - label: "Java code"
+    url: https://github.com/ehealy19/ehealy19.github.io/tree/main/projects/wordle/code
+    type: code
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

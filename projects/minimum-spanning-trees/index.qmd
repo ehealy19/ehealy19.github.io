@@ -1,0 +1,25 @@
+---
+title: "Minimum Spanning Trees: Applications and Algorithms"
+description: >-
+  Implements Prim's algorithm to find minimum spanning trees, applies it to a map of
+  Haverford College's campus to connect every building with the least total distance, and
+  compares the approach with maximum-flow solutions.
+categories: [Mathematics]
+date: 2023-05-12
+image: thumb.jpg
+course: "MATH 210"
+course-name: "Linear Optimization"
+term: "Spring 2023"
+team: "With Mitali Kessinger"
+kind: "Paper + slides"
+tools: ["Prim's algorithm", "Graph theory"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+  - label: "Slides"
+    file: slides.pdf
+    type: pdf
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

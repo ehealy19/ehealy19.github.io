@@ -1,0 +1,24 @@
+---
+title: "The Impact of Act 39 on Pennsylvania's Alcohol Retail Labor Market"
+description: >-
+  A difference-in-differences study of how Pennsylvania's Act 39 affected employment,
+  hours and earnings in beer, wine and liquor retail across 67 counties, using QCEW data,
+  with border-county spillovers and a placebo test on neighboring states.
+categories: [Economics]
+date: 2023-05-01
+image: thumb.jpg
+course: "ECON 384"
+term: "Spring 2023"
+team: "Solo"
+kind: "Paper + slides"
+tools: ["Difference-in-differences", "QCEW data", "Placebo tests"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+  - label: "Slides"
+    file: slides.pdf
+    type: pdf
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

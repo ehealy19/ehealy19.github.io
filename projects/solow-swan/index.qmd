@@ -1,0 +1,22 @@
+---
+title: "The Solow-Swan Model of Economic Growth"
+description: >-
+  Works through the Solow-Swan growth model as a system of differential equations to show
+  how changes in an economy's inputs shift its output and long-run standard of living.
+categories: [Mathematics]
+date: 2022-05-04
+image: thumb.jpg
+course: "MATH B210"
+course-name: "Differential Equations"
+term: "Spring 2022"
+team: "Solo"
+kind: "Paper"
+tools: ["Differential equations", "Growth models"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

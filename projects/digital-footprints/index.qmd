@@ -1,0 +1,27 @@
+---
+title: "Digital Footprints: What Subreddits Reveal about City-Level Diversity"
+description: >-
+  A big-data analysis of Reddit comments and submissions from city subreddits (Houston,
+  New York, Philadelphia, Los Angeles and others) from June 2023 to July 2024, comparing
+  how cities express local identity through language, sentiment and engagement.
+categories: [Data Science]
+date: 2025-12-05
+image: thumb.jpg
+course: "DSAN 6000"
+course-name: "Big Data Analytics"
+term: "Fall 2025"
+team: "Team of 4"
+kind: "Website"
+tools: ["PySpark", "AWS", "NLP", "Sentiment analysis"]
+materials:
+  - label: "Project site"
+    file: site/index.html
+    type: site
+  - label: "Presentation"
+    file: presentation.pdf
+    type: pdf
+featured: true      # shows on the home page under Recent work
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

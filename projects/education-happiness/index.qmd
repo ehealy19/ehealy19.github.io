@@ -1,0 +1,22 @@
+---
+title: "Higher Education and Overall Happiness"
+description: >-
+  Tests whether education level relates to happiness using World Values Survey data, split
+  by income, marital status, age and health. Contrary to the team's hypothesis, no
+  significant relationship appeared.
+categories: [Economics]
+date: 2021-12-09
+image: thumb.jpg
+course: "ECON 203"
+term: "Fall 2021"
+team: "Team of 4"
+kind: "Paper"
+tools: ["Hypothesis testing", "World Values Survey"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

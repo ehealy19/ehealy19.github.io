@@ -1,0 +1,26 @@
+---
+title: "An Empirical Review of Arrest Rates in the DMV Area"
+description: >-
+  How have arrest rates in D.C., Maryland and Virginia changed over the past ten years?
+  The report covers time-series outlier detection, seasonality, arrest categorization,
+  geospatial analysis, and juvenile versus adult arrests with significance tests and
+  transition matrices.
+categories: [Data Science]
+date: 2024-12-10
+image: thumb.jpg
+course: "DSAN 5100"
+term: "Fall 2024"
+team: "Team of 5"
+kind: "Report + slides"
+tools: ["Python", "R", "Time series", "Geospatial analysis", "Hypothesis testing"]
+materials:
+  - label: "Report"
+    file: report.pdf
+    type: pdf
+  - label: "Presentation"
+    file: presentation.pdf
+    type: pdf
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

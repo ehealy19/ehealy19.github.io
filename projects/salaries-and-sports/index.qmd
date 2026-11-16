@@ -1,0 +1,26 @@
+---
+title: "Salaries and Sports: The Financial Effect of College Athletics"
+description: >-
+  Do college athletes earn more after graduation? Log-log regressions with individual,
+  time and sport fixed effects on a 2012 to 2019 person-year dataset find varsity athletes
+  earning less than non-athletes on average, with female varsity athletes faring better
+  than male ones.
+categories: [Economics]
+date: 2022-12-08
+image: thumb.jpg
+course: "ECON 304"
+course-name: "Introduction to Econometrics"
+term: "Fall 2022"
+team: "Solo"
+kind: "Paper"
+tools: ["Stata", "Log-log regression", "Fixed effects"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+  - label: "Stata log"
+    file: project-log.pdf
+    type: pdf
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

@@ -1,0 +1,21 @@
+---
+title: "April Showers Bring May Delays"
+description: >-
+  Uses Bureau of Transportation Statistics on-time data for May 2023 to recommend when and
+  how to fly: the best days to travel, and which airports and airlines to avoid.
+categories: [Data Science]
+date: 2025-11-20
+image: thumb.jpg
+course: "DSAN 6300"
+term: "Fall 2025"
+team: "Solo"
+kind: "Website"
+tools: ["SQL", "Data visualization"]
+materials:
+  - label: "Project site"
+    url: https://ehealy.georgetown.domains/SQL/
+    type: site
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

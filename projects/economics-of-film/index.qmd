@@ -1,0 +1,26 @@
+---
+title: "The Economics of Film: Film Releases and Stock Market Trends"
+description: >-
+  Examines the two-way link between film releases and the stock market, joining S&P 500
+  stock data with IMDb film data from the OMDb API. Classifiers could not predict stock
+  moves from film features; XGBoost reached an R² of 0.76 predicting stock changes from
+  selected features.
+categories: [Data Science]
+date: 2025-04-30
+image: thumb.jpg
+course: "DSAN 5300"
+term: "Spring 2025"
+team: "Team of 4"
+kind: "Report + poster"
+tools: ["XGBoost", "Regression", "OMDb API"]
+materials:
+  - label: "Report"
+    file: report.pdf
+    type: pdf
+  - label: "Poster"
+    file: poster.pdf
+    type: pdf
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

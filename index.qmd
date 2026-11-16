@@ -1,35 +1,94 @@
 ---
 title: "Lizzie Healy"
+pagetitle: "Lizzie Healy · Data Scientist"
+listing:
+  id: featured
+  contents: projects/*/index.qmd
+  template: _card-listing.ejs
+  template-params:
+    featured: true
+  sort: "date desc"
+  fields: [title, description, image, categories, date, course, term, tools, kind, featured, review]
 ---
 
-## Welcome
+```{=html}
+<header class="lh-hero">
+  <canvas id="contours" aria-hidden="true"></canvas>
+  <div class="lh-wrap">
+    <div>
+      <div class="lh-eyebrow">Data science · Economics · Applied math</div>
+      <h1>Lizzie Healy</h1>
+      <p class="lh-role">Data scientist and analyst</p>
+      <p class="lh-lede">I'm passionate about data accuracy and pre-processing, and I enjoy making data accessible through clear presentation and communication of results.</p>
+      <div class="lh-cta">
+        <a class="lh-btn primary" href="projects.html">View projects
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="lh-btn" href="resume.html">Resume</a>
+        <!-- EDIT: replace YOUR-LINKEDIN-HANDLE (also in _quarto.yml footer) -->
+        <a class="lh-btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a>
+        <a class="lh-btn" href="https://github.com/ehealy19">GitHub</a>
+      </div>
+    </div>
+    <!-- EDIT: save your headshot as assets/headshot.jpg (portrait, about 800 x 1000 px) -->
+    <div class="lh-portrait"><span class="lh-initials">LH</span><img src="assets/headshot.jpg" alt="Lizzie Healy" onerror="this.remove()"></div>
+  </div>
+</header>
+```
 
-Hi! I'm Lizzie Healy, a data scientist/analyst passionate about solving problems with data and technology.
+::: {.lh-block #about}
+::: {.lh-wrap}
+## About
 
-Name
-Aspiring data scientist
-Linkedin
-Gmail
-Haverford page (?)
+::: {.lh-about}
+::: {.lh-about-text}
+I earned a Master of Science in Data Science and Analytics from Georgetown University, after a B.A. in Quantitative Economics with a minor in Applied Mathematics from Haverford College.
 
+My work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.
 
-## About Me
+Browse my projects below, and feel free to reach out.
+:::
 
-I am currently pursuing a Master of Science in the Data Science and Analytics program at Georgetown University. I previously attended Haverford College where I earned a B.A. in Quantitative Economics with a minor in Applied Mathematics. 
+```{=html}
+<div class="lh-edu">
+  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--ds)">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
+  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--econ)">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+</div>
+```
+:::
+:::
+:::
 
-I am particularly passionate about data accuracy and pre-processing and enjoy making data accessible through clear presentation and communication of results.
+::: {.lh-block #experience}
+::: {.lh-wrap}
+## Experience
 
-Please feel free to browse my current and previous projects and don't hesitate to reach out with any questions!
-[Haverford logo] [Georgetown logo] – both are hyperlinks to department pages
-Embedded resume
+<!-- EDIT: fill in your job. Copy the whole ::: {.lh-job} block to add another role. -->
+::: {.lh-job}
+::: {.lh-when}
+Start date – Present
+:::
 
+### Job title
 
-I'm interested in data science and machine learning. I enjoy building projects that combine technical skills with creative problem-solving.
+::: {.lh-org}
+Employer · City
+:::
 
-## Get In Touch
+- What you do, or an outcome you're proud of
+- Tools you use
+:::
+:::
+:::
 
-Feel free to reach out to me via [email](mailto:your-email@example.com) or connect with me on [LinkedIn](https://linkedin.com) or [GitHub](https://github.com).
+::: {.lh-block #featured-work}
+::: {.lh-wrap}
+::: {.lh-sec-head}
+## Recent work
 
----
+[All projects →](projects.qmd){.lh-mono}
+:::
 
-*Last updated: August 2026*
+::: {#featured}
+:::
+:::
+:::

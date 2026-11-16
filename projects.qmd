@@ -1,0 +1,26 @@
+---
+title: "Projects"
+listing:
+  id: all-projects
+  contents: projects/*/index.qmd
+  template: _card-listing.ejs
+  sort: "date desc"
+  fields: [title, description, image, categories, date, course, term, tools, kind, featured, review]
+---
+
+::: {.lh-block}
+::: {.lh-wrap}
+::: {.lh-sec-head}
+## Projects
+
+[ ]{#lh-count .lh-mono}
+:::
+
+```{=html}
+<div class="lh-filters" id="lh-filters" role="group" aria-label="Filter by subject"></div>
+```
+
+::: {#all-projects}
+:::
+:::
+:::

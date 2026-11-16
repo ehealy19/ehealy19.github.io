@@ -1,0 +1,22 @@
+---
+title: "Women's Travel Guide: Global Perspectives on the Wellbeing of Women"
+description: >-
+  An interactive visualization site comparing countries on women's economic empowerment,
+  political empowerment, health and safety, written for women who travel or relocate.
+  Includes a radar chart ranking countries on labor-force participation, paid maternity
+  leave and education.
+categories: [Data Science]
+date: 2024-12-01
+image: thumb.jpg
+course: "DSAN 5200"
+term: "Fall 2024"
+kind: "Website"
+tools: ["Interactive visualization"]
+materials:
+  - label: "Project site"
+    file: site/index.html
+    type: site
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

@@ -1,22 +1,60 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs          # GitHub Pages serves this folder (Settings > Pages > main /docs)
   render:
-    - "*.qmd"
+    - index.qmd
+    - projects.qmd
+    - resume.qmd
+    - projects/*/index.qmd  # one page per project
+  resources:                # files copied into docs/ as-is
+    - .nojekyll
+    - assets/site.js
+    - "assets/*.pdf"
+    - "projects/*/*.pdf"
+    - "projects/*/code/**"
+    - "projects/*/site/**"
 
 website:
   title: "Lizzie Healy"
+  site-url: https://ehealy19.github.io
+  description: "Data science, economics and applied math projects by Lizzie Healy."
+  page-navigation: false
   navbar:
-    left:
-      - text: "Home"
+    logo: assets/logo.svg
+    title: "Lizzie Healy"
+    right:
+      - text: Home
         href: index.qmd
-      - text: "Current Projects"
-        href: curr_projects.qmd
-      - text: "Previous Projects"
-        href: prev_projects.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Resume
+        href: resume.qmd
+  page-footer:
+    left: "© 2026 Lizzie Healy"
+    right:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+      - text: GitHub
+        href: https://github.com/ehealy19
+      - text: Resume
+        href: resume.qmd
 
 format:
   html:
+    theme: [cosmo, assets/theme.scss]
     css: styles.css
-    theme: default
+    page-layout: custom
+    title-block-style: none
+    anchor-sections: false
     toc: false
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    include-after-body:
+      - text: |
+          <script src="/assets/site.js"></script>
+    filters:
+      - _filters/project-page.lua

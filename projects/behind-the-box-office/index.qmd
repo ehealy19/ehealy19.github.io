@@ -1,0 +1,23 @@
+---
+title: "Behind the Box Office: Directorial Influence on Film Success"
+description: >-
+  Estimates how a director's track record affects both box-office revenue and critical
+  acclaim for U.S. films released 2002 to 2016, using merged Kaggle, The Numbers and IMDb
+  data, OLS regression, film and director controls, and fixed effects for budget and
+  director-actor collaborations.
+categories: [Economics]
+date: 2024-05-01
+image: thumb.jpg
+course: "ECON 396"
+course-name: "Senior Thesis, Haverford College"
+term: "Spring 2024"
+team: "Solo"
+kind: "Thesis"
+tools: ["OLS regression", "Fixed effects", "Data merging"]
+materials:
+  - label: "Thesis"
+    file: thesis.pdf
+    type: pdf
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lizzie Healy</title>
+<title>Lizzie Healy · Data Scientist – Lizzie Healy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,17 +30,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-cfc2be7efb94dd6d5df05217d74682f0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ff63373b1067ca6f91cf1456aa1f00a2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dd544052bb5a89f6276a595a513994e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +69,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories','listing-date','listing-course','listing-term','listing-tools','listing-kind','listing-featured','listing-review',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-categories","listing-date","listing-image","listing-course","listing-term","listing-team","listing-kind","listing-tools","listing-materials","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-review","listing-course-name","listing-featured"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&amp;family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -81,6 +143,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/logo.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/logo.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Lizzie Healy</span>
@@ -91,18 +155,18 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./curr_projects.html"> 
-<span class="menu-text">Current Projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./prev_projects.html"> 
-<span class="menu-text">Previous Projects</span></a>
+    <a class="nav-link" href="./resume.html"> 
+<span class="menu-text">Resume</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -112,63 +176,98 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Lizzie Healy</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
+<header id="title-block-header">
+<h1 class="title display-7">Lizzie Healy</h1>
 
 </header>
 
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
-<p>Hi! I’m Lizzie Healy, a data scientist/analyst passionate about solving problems with data and technology.</p>
-<p>Name Aspiring data scientist Linkedin Gmail Haverford page (?)</p>
+<header class="lh-hero">
+  <canvas id="contours" aria-hidden="true"></canvas>
+  <div class="lh-wrap">
+    <div>
+      <div class="lh-eyebrow">Data science · Economics · Applied math</div>
+      <h1>Lizzie Healy</h1>
+      <p class="lh-role">Data scientist and analyst</p>
+      <p class="lh-lede">I'm passionate about data accuracy and pre-processing, and I enjoy making data accessible through clear presentation and communication of results.</p>
+      <div class="lh-cta">
+        <a class="lh-btn primary" href="projects.html">View projects
+          <svg viewbox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"></path></svg></a>
+        <a class="lh-btn" href="resume.html">Resume</a>
+        <!-- EDIT: replace YOUR-LINKEDIN-HANDLE (also in _quarto.yml footer) -->
+        <a class="lh-btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a>
+        <a class="lh-btn" href="https://github.com/ehealy19">GitHub</a>
+      </div>
+    </div>
+    <!-- EDIT: save your headshot as assets/headshot.jpg (portrait, about 800 x 1000 px) -->
+    <div class="lh-portrait"><span class="lh-initials">LH</span><img src="assets/headshot.jpg" alt="Lizzie Healy" onerror="this.remove()"></div>
+  </div>
+</header>
+<div id="about" class="lh-block">
+<section id="about" class="level2 lh-wrap">
+<h2 data-anchor-id="about">About</h2>
+<div class="lh-about">
+<div class="lh-about-text">
+<p>I earned a Master of Science in Data Science and Analytics from Georgetown University, after a B.A. in Quantitative Economics with a minor in Applied Mathematics from Haverford College.</p>
+<p>My work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.</p>
+<p>Browse my projects below, and feel free to reach out.</p>
+</div>
+<div class="lh-edu">
+  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--ds)">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
+  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--econ)">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+</div>
+</div>
 </section>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I am currently pursuing a Master of Science in the Data Science and Analytics program at Georgetown University. I previously attended Haverford College where I earned a B.A. in Quantitative Economics with a minor in Applied Mathematics.</p>
-<p>I am particularly passionate about data accuracy and pre-processing and enjoy making data accessible through clear presentation and communication of results.</p>
-<p>Please feel free to browse my current and previous projects and don’t hesitate to reach out with any questions! [Haverford logo] [Georgetown logo] – both are hyperlinks to department pages Embedded resume</p>
-<p>I’m interested in data science and machine learning. I enjoy building projects that combine technical skills with creative problem-solving.</p>
+</div>
+<div id="experience" class="lh-block">
+<section id="experience" class="level2 lh-wrap">
+<h2 data-anchor-id="experience">Experience</h2>
+<!-- EDIT: fill in your job. Copy the whole ::: {.lh-job} block to add another role. -->
+<div class="lh-job">
+<div class="lh-when">
+<p>Start date – Present</p>
+</div>
+<section id="job-title" class="level3">
+<h3 data-anchor-id="job-title">Job title</h3>
+<div class="lh-org">
+<p>Employer · City</p>
+</div>
+<ul>
+<li>What you do, or an outcome you’re proud of</li>
+<li>Tools you use</li>
+</ul>
 </section>
-<section id="get-in-touch" class="level2">
-<h2 class="anchored" data-anchor-id="get-in-touch">Get In Touch</h2>
-<p>Feel free to reach out to me via <a href="mailto:your-email@example.com">email</a> or connect with me on <a href="https://linkedin.com">LinkedIn</a> or <a href="https://github.com">GitHub</a>.</p>
-<hr>
-<p><em>Last updated: August 2026</em></p>
+</div>
+</section>
+</div>
+<div id="featured-work" class="lh-block">
+<div class="lh-wrap">
+<section id="recent-work" class="level2 lh-sec-head">
+<h2 data-anchor-id="recent-work">Recent work</h2>
+<p><a href="./projects.html" class="lh-mono">All projects →</a></p>
+</section>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-custom">
+<div class="lh-grid">
+<p><a class="lh-card" href="./projects/greener-pastures/index.html" data-subject="Data Science" style="--c: var(--ds)"> <span class="lh-badges"><span class="lh-badge">Recent</span><span class="lh-badge draft">draft text</span></span> <span class="lh-thumb"><img src="./projects/greener-pastures/thumb.jpg" alt="" loading="lazy"><span class="lh-kind">Paper + poster</span></span> <span class="lh-card-body"> <span class="lh-meta"><span class="subj">Data Science</span><span>DSAN 5550 · 2025</span></span> <span class="lh-title">Greener Pastures: Reducing Small-Business Emissions Through Route Optimization</span> <span class="lh-desc">Can smarter routing make a small business greener? Using real Mother's Day 2025 delivery data from a Pennsylvania florist, I compared the shop's manual routes with routes optimized by VROOM and OSRM. The optimized plan saved 89 minutes, 66.8 miles, 4 delivery trips and $512.36, with a measurable drop in carbon emissions.</span> <span class="lh-tools"><span class="lh-tool">VROOM</span><span class="lh-tool">OSRM</span><span class="lh-tool">Route optimization</span></span> </span> </a></p>
+<p><a class="lh-card" href="./projects/digital-footprints/index.html" data-subject="Data Science" style="--c: var(--ds)"> <span class="lh-badges"><span class="lh-badge">Recent</span><span class="lh-badge draft">draft text</span></span> <span class="lh-thumb"><img src="./projects/digital-footprints/thumb.jpg" alt="" loading="lazy"><span class="lh-kind">Website</span></span> <span class="lh-card-body"> <span class="lh-meta"><span class="subj">Data Science</span><span>DSAN 6000 · Fall 2025</span></span> <span class="lh-title">Digital Footprints: What Subreddits Reveal about City-Level Diversity</span> <span class="lh-desc">A big-data analysis of Reddit comments and submissions from city subreddits (Houston, New York, Philadelphia, Los Angeles and others) from June 2023 to July 2024, comparing how cities express local identity through language, sentiment and engagement.</span> <span class="lh-tools"><span class="lh-tool">PySpark</span><span class="lh-tool">AWS</span><span class="lh-tool">NLP</span><span class="lh-tool">Sentiment analysis</span></span> </span> </a></p>
+<p><a class="lh-card" href="./projects/leading-ladies/index.html" data-subject="Data Science" style="--c: var(--ds)"> <span class="lh-badges"><span class="lh-badge">Recent</span><span class="lh-badge draft">draft text</span></span> <span class="lh-thumb"><img src="./projects/leading-ladies/thumb.jpg" alt="" loading="lazy"><span class="lh-kind">Website</span></span> <span class="lh-card-body"> <span class="lh-meta"><span class="subj">Data Science</span><span>DSAN 5650 · Summer 2025</span></span> <span class="lh-title">Leading Ladies and Lost Revenue</span> <span class="lh-desc">A causal analysis of whether casting a woman in the leading role changes a film's worldwide box-office revenue. Films are matched with propensity score weighting on genre, budget, release timing and a constructed star-power metric, with sentiment analysis of descriptions and taglines. IMDb rating serves as a robustness check.</span> <span class="lh-tools"><span class="lh-tool">Propensity score matching</span><span class="lh-tool">Sentiment analysis</span><span class="lh-tool">Causal inference</span></span> </span> </a></p>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -233,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ehealy19\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -247,6 +346,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -561,6 +665,36 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Lizzie Healy</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/ehealy19">
+<p>GitHub</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./resume.html">
+<p>Resume</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
 
 
 

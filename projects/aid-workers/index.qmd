@@ -1,0 +1,21 @@
+---
+title: "Understanding the Why: Motive in Violence Against Aid Workers"
+description: >-
+  Uses the Aid Worker Security Database (1997 onward) to ask why attacks on humanitarian
+  workers happen: how motives change over time and by region, and whether the motive
+  relates to the outcome and to who is affected.
+categories: [Data Science]
+date: 2025-04-15
+image: thumb.jpg
+course: "Scholarship"
+term: "Spring 2025"
+kind: "Website"
+tools: ["Data visualization"]
+materials:
+  - label: "Project site"
+    url: https://ehealy.georgetown.domains/Scholarship/home.html
+    type: site
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

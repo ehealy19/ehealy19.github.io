@@ -1,0 +1,28 @@
+---
+title: "Cutting the Cheese: Simulating Infectious Disease Spread with Fiction"
+description: >-
+  Models the "cheese touch" from Diary of a Wimpy Kid as a modified SIR epidemic, with
+  touch-based transmission, a time-limited infection and crossed fingers as immunity.
+  Several model versions are simulated in MATLAB and compared on R₀.
+categories: [Mathematics]
+date: 2023-12-01
+image: thumb.jpg
+course: "MATH 382"
+course-name: "Modeling & Differential Equations"
+term: "Fall 2023"
+team: "Solo"
+kind: "Paper + slides"
+tools: ["MATLAB", "SIR models", "Simulation"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+  - label: "Slides"
+    file: slides.pdf
+    type: pdf
+  - label: "MATLAB code"
+    url: https://github.com/ehealy19/ehealy19.github.io/tree/main/projects/cutting-the-cheese/code
+    type: code
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->

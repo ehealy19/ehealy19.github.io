@@ -1,0 +1,28 @@
+---
+title: "Greener Pastures: Reducing Small-Business Emissions Through Route Optimization"
+description: >-
+  Can smarter routing make a small business greener? Using real Mother's Day 2025 delivery
+  data from a Pennsylvania florist, I compared the shop's manual routes with routes
+  optimized by VROOM and OSRM. The optimized plan saved 89 minutes, 66.8 miles, 4 delivery
+  trips and $512.36, with a measurable drop in carbon emissions.
+categories: [Data Science]
+date: 2025-12-10
+image: thumb.jpg
+course: "DSAN 5550"
+course-name: "Data Science & Climate Change"
+term: "2025"
+team: "Solo"
+kind: "Paper + poster"
+tools: ["VROOM", "OSRM", "Route optimization"]
+materials:
+  - label: "Paper"
+    file: paper.pdf
+    type: pdf
+  - label: "Poster"
+    file: poster.pdf
+    type: pdf
+featured: true      # shows on the home page under Recent work
+review: true        # draft text: edit the description, then delete this line
+---
+
+<!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->
