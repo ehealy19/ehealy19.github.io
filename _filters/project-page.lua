@@ -81,13 +81,13 @@ function Pandoc(doc)
   end
 
   -- facts box
-  local facts = { '<aside class="lh-facts"><dl>' }
+  local facts = { '<div class="lh-facts"><dl>' }
   facts[#facts + 1] = "<div><dt>Course</dt><dd>" .. esc(course) .. (course_name and (": " .. esc(course_name)) or "") .. "</dd></div>"
   if term then facts[#facts + 1] = "<div><dt>When</dt><dd>" .. esc(term) .. "</dd></div>" end
   if team then facts[#facts + 1] = "<div><dt>Team</dt><dd>" .. esc(team) .. "</dd></div>" end
   if #tools_html > 0 then facts[#facts + 1] = "<div><dt>Tools</dt><dd>" .. tools .. "</dd></div>" end
   if #labels > 0 then facts[#facts + 1] = "<div><dt>Materials</dt><dd>" .. table.concat(labels, ", ") .. "</dd></div>" end
-  facts[#facts + 1] = "</dl></aside>"
+  facts[#facts + 1] = "</dl></div>"
 
   -- body: the description first, then any extra text written below the front matter
   local body = pandoc.Blocks({})

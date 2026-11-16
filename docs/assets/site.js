@@ -110,6 +110,15 @@
       var src = btn.dataset.src, type = btn.dataset.type, label = btn.textContent;
       if (openLink) { openLink.href = src; }
       if (type === "pdf") {
+        if (viewer.hasAttribute("data-check")) {
+          // only embed if the file exists (e.g. the resume before it's uploaded)
+          fetch(src, { method: "HEAD" }).then(function (r) {
+            if (!r.ok) throw 0;
+            if (canInlinePdf()) frame(src + "#view=FitH", label);
+            else poster('<a class="lh-btn primary" href="' + esc(src) + '" target="_blank" rel="noopener">Open ' + esc(label.toLowerCase()) + ' (PDF)</a>');
+          }).catch(function () { poster('<span class="note">Coming soon.</span>'); if (openLink) openLink.hidden = true; });
+          return;
+        }
         if (canInlinePdf()) frame(src + "#view=FitH", label);
         else poster('<a class="lh-btn primary" href="' + esc(src) + '" target="_blank" rel="noopener">Open ' + esc(label.toLowerCase()) + ' (PDF)</a>');
       } else {
