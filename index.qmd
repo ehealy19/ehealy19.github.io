@@ -24,12 +24,10 @@ listing:
         <a class="lh-btn primary" href="projects.html">View projects
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
         <a class="lh-btn" href="resume.html">Resume</a>
-        <!-- EDIT: replace YOUR-LINKEDIN-HANDLE (also in _quarto.yml footer) -->
-        <a class="lh-btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE">LinkedIn</a>
+        <a class="lh-btn" href="https://www.linkedin.com/in/lizzie-healy-4465a8240">LinkedIn</a>
         <a class="lh-btn" href="https://github.com/ehealy19">GitHub</a>
       </div>
     </div>
-    <!-- EDIT: save your headshot as assets/headshot.jpg (portrait, about 800 x 1000 px) -->
     <div class="lh-portrait"><span class="lh-initials">LH</span><img src="assets/headshot.jpg" alt="Lizzie Healy" onerror="this.remove()"></div>
   </div>
 </header>
