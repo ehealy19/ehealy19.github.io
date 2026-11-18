@@ -47,9 +47,24 @@ Browse my projects below, and feel free to reach out.
 :::
 
 ```{=html}
+<!-- EDIT: each card is a link to the school's site. To move a photo's focus, change object-position (e.g. "center 60%"). -->
 <div class="lh-edu">
-  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--ds)">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
-  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--econ)">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+  <a class="lh-edu-photo" href="https://analytics.georgetown.edu/" target="_blank" rel="noopener" aria-label="Georgetown Data Science and Analytics program (opens in a new tab)">
+    <img class="bg" src="assets/gu_campus.jpg" alt="" style="object-position:center 35%">
+    <span class="lh-visit">Visit program ↗</span>
+    <div class="txt">
+      <span class="lh-edu-mark"><img src="assets/gtown_sports.svg" alt=""></span>
+      <div><div class="lh-mono">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
+    </div>
+  </a>
+  <a class="lh-edu-photo" href="https://www.haverford.edu/economics" target="_blank" rel="noopener" aria-label="Haverford Economics department (opens in a new tab)">
+    <img class="bg" src="assets/haverford_campus.jpg" alt="" style="object-position:center 80%">
+    <span class="lh-visit">Visit department ↗</span>
+    <div class="txt">
+      <span class="lh-edu-mark"><img src="assets/hav_mark.png" alt=""></span>
+      <div><div class="lh-mono">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+    </div>
+  </a>
 </div>
 ```
 :::
@@ -60,8 +75,13 @@ Browse my projects below, and feel free to reach out.
 ::: {.lh-wrap}
 ## Experience
 
-<!-- EDIT: fill in your job. Copy the whole ::: {.lh-job} block to add another role. -->
-::: {.lh-job}
+<!-- EDIT: the timeline. Copy a whole ::: {.lh-job tabindex="0"} block (including its .lh-tl-node logo) to add a role, newest first. Bullets show on hover. -->
+::: {.lh-tl}
+::: {.lh-job tabindex="0"}
+::: {.lh-tl-node}
+<img src="assets/cencora-icon.jpg" alt="Cencora">
+:::
+
 ::: {.lh-when}
 Jan 2026 – Present
 :::
@@ -77,7 +97,11 @@ Cencora · Conshohocken, PA
 - Support migration from Power BI Premium to Microsoft Fabric capacities SKUs and from SAP BOBJs to Power BI
 :::
 
-::: {.lh-job}
+::: {.lh-job tabindex="0"}
+::: {.lh-tl-node}
+<img src="assets/cencora-icon.jpg" alt="Cencora">
+:::
+
 ::: {.lh-when}
 June 2025 – August 2025
 :::
@@ -90,6 +114,8 @@ Cencora · Conshohocken, PA
 
 - Worked with the IT team responsible for ensuring seamless access, usability, and integrity of enterprise data for customers
 - Led an initiative to evaluate the effectiveness of Copilot integration within Power BI to enhance end-user productivity
+:::
+:::
 :::
 :::
 

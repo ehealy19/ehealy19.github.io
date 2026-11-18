@@ -82,6 +82,46 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.12; t
 .lh-job .lh-org p { margin: 0; }
 .lh-job ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); }
 
+/* Education photo cards: whole card links to the school; "visit" pill appears on hover */
+.lh-edu-photo { position: relative; display: flex; align-items: flex-end; min-height: 180px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: linear-gradient(140deg, var(--econ), var(--ds)); color: #fff; text-decoration: none; transition: transform .22s ease, box-shadow .22s ease; }
+.lh-edu-photo:hover, .lh-edu-photo:focus-visible { color: #fff; text-decoration: none; transform: translateY(-3px); box-shadow: 0 14px 30px -14px rgba(14,42,51,.45); }
+.lh-edu-photo .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.lh-edu-photo:hover .bg, .lh-edu-photo:focus-visible .bg { transform: scale(1.05); }
+.lh-edu-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14,42,51,.05) 15%, rgba(14,42,51,.88)); }
+.lh-edu-photo .txt { position: relative; z-index: 2; display: flex; align-items: center; gap: 14px; padding: 16px 20px; }
+/* Logo tile. Named lh-edu-mark (not "mark") because Bootstrap styles .mark as a yellow highlight. */
+.lh-edu-mark { flex: none; width: 58px; height: 58px; border-radius: 12px; background: rgba(255,255,255,.95); display: grid; place-items: center; padding: 7px; box-shadow: 0 4px 14px -6px rgba(0,0,0,.5); }
+.lh-edu-mark img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; }
+.lh-edu-photo h3 { color: #fff; font-size: 18px; margin: 2px 0 4px; }
+.lh-edu-photo p { margin: 0; color: #D7E5E1; font-size: 15px; }
+.lh-edu-photo .lh-mono { color: #9FE0CF; }
+.lh-visit { position: absolute; top: 12px; right: 12px; z-index: 2; background: rgba(255,255,255,.94); color: var(--ink); font: 500 12px/1 var(--mono); padding: 7px 10px; border-radius: 999px; opacity: 0; transform: translateY(-4px); transition: opacity .25s, transform .25s; }
+.lh-edu-photo:hover .lh-visit, .lh-edu-photo:focus-visible .lh-visit { opacity: 1; transform: none; }
+@media (hover: none) { .lh-visit { opacity: 1; transform: none; } } /* phones: always show the link hint */
+
+/* Experience timeline: logos sit on a vertical line to the left of each job card */
+.lh-tl { position: relative; padding-left: 68px; }
+.lh-tl .lh-job { position: relative; }
+.lh-tl .lh-job:not(:last-child)::before { content: ""; position: absolute; left: -43px; top: 70px; bottom: -34px; width: 2px; background: var(--line); } /* line to the next logo */
+.lh-tl-node { position: absolute; left: -68px; top: 18px; width: 52px; height: 52px; border-radius: 50%; overflow: hidden; background: var(--surface); border: 3px solid var(--paper); box-shadow: 0 0 0 1.5px var(--line); }
+.lh-tl > .lh-job:first-child .lh-tl-node { box-shadow: 0 0 0 2px var(--accent); } /* current role */
+.lh-tl-node p { margin: 0; height: 100%; }
+.lh-tl-node img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+/* Collapsed job cards: date, title and location show; bullets slide open on hover or keyboard focus */
+.lh-tl .lh-job { padding-right: 52px; transition: border-color .2s, box-shadow .22s; }
+.lh-tl .lh-job .lh-when { grid-row: span 3; }
+.lh-tl .lh-job ul { max-height: 0; opacity: 0; overflow: hidden; margin-top: 0; margin-bottom: 0; transition: max-height .4s ease, opacity .3s ease, margin-top .3s ease; }
+.lh-tl .lh-job::after { content: ""; position: absolute; right: 22px; top: 26px; width: 9px; height: 9px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .3s; }
+.lh-tl .lh-job:hover, .lh-tl .lh-job:focus-within { border-color: var(--accent); box-shadow: 0 12px 26px -16px rgba(14,42,51,.4); }
+.lh-tl .lh-job:hover ul, .lh-tl .lh-job:focus-within ul { max-height: 420px; opacity: 1; margin-top: 8px; }
+.lh-tl .lh-job:hover::after, .lh-tl .lh-job:focus-within::after { transform: rotate(-135deg); top: 31px; }
+.lh-tl .lh-job:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 3px; }
+@media (hover: none) { /* phones and tablets: no hover, so always show details */
+  .lh-tl .lh-job ul { max-height: none; opacity: 1; margin-top: 8px; }
+  .lh-tl .lh-job::after { display: none; }
+  .lh-tl .lh-job { padding-right: 24px; }
+}
+
 /* Filters */
 .lh-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
 .lh-chip { display: inline-flex; align-items: center; gap: 8px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 8px 14px; font: 600 14px/1 var(--body); cursor: pointer; transition: border-color .2s, background .2s, color .2s; }
@@ -148,12 +188,16 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.12; t
   .lh-portrait { justify-self: start; width: 220px; order: -1; box-shadow: 10px 10px 0 -1px var(--ink); }
   .lh-job { grid-template-columns: 1fr; }
   .lh-job .lh-when { grid-row: auto; }
+  .lh-tl .lh-job .lh-when { grid-row: auto; }
   .lh-hero .lh-wrap { padding-top: 44px; padding-bottom: 48px; }
   .lh-block { padding: 52px 0; }
 }
 @media (max-width: 520px) {
   .lh-wrap { padding: 0 18px; }
   .lh-grid { grid-template-columns: 1fr; }
+  .lh-tl { padding-left: 52px; }
+  .lh-tl .lh-job:not(:last-child)::before { left: -33px; top: 58px; }
+  .lh-tl-node { left: -52px; width: 40px; height: 40px; }
   .lh-facts dl > div { grid-template-columns: 90px 1fr; }
   .lh-stage { padding: 16px; min-height: 240px; }
 }

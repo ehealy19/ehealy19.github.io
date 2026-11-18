@@ -215,9 +215,24 @@ window.Quarto = {
 <p>My work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.</p>
 <p>Browse my projects below, and feel free to reach out.</p>
 </div>
+<!-- EDIT: each card is a link to the school's site. To move a photo's focus, change object-position (e.g. "center 60%"). -->
 <div class="lh-edu">
-  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--ds)">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
-  <div class="lh-edu-item"><div class="lh-mono" style="color:var(--econ)">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+  <a class="lh-edu-photo" href="https://analytics.georgetown.edu/" target="_blank" rel="noopener" aria-label="Georgetown Data Science and Analytics program (opens in a new tab)">
+    <img class="bg" src="assets/gu_campus.jpg" alt="" style="object-position:center 35%">
+    <span class="lh-visit">Visit program ↗</span>
+    <div class="txt">
+      <span class="lh-edu-mark"><img src="assets/gtown_sports.svg" alt=""></span>
+      <div><div class="lh-mono">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
+    </div>
+  </a>
+  <a class="lh-edu-photo" href="https://www.haverford.edu/economics" target="_blank" rel="noopener" aria-label="Haverford Economics department (opens in a new tab)">
+    <img class="bg" src="assets/haverford_campus.jpg" alt="" style="object-position:center 80%">
+    <span class="lh-visit">Visit department ↗</span>
+    <div class="txt">
+      <span class="lh-edu-mark"><img src="assets/hav_mark.png" alt=""></span>
+      <div><div class="lh-mono">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>
+    </div>
+  </a>
 </div>
 </div>
 </section>
@@ -225,8 +240,12 @@ window.Quarto = {
 <div id="experience" class="lh-block">
 <section id="experience" class="level2 lh-wrap">
 <h2 data-anchor-id="experience">Experience</h2>
-<!-- EDIT: fill in your job. Copy the whole ::: {.lh-job} block to add another role. -->
-<div class="lh-job">
+<!-- EDIT: the timeline. Copy a whole ::: {.lh-job tabindex="0"} block (including its .lh-tl-node logo) to add a role, newest first. Bullets show on hover. -->
+<div class="lh-tl">
+<div class="lh-job" tabindex="0">
+<div class="lh-tl-node">
+<p><img src="assets/cencora-icon.jpg" alt="Cencora"></p>
+</div>
 <div class="lh-when">
 <p>Jan 2026 – Present</p>
 </div>
@@ -242,7 +261,10 @@ window.Quarto = {
 </ul>
 </section>
 </div>
-<div class="lh-job">
+<div class="lh-job" tabindex="0">
+<div class="lh-tl-node">
+<p><img src="assets/cencora-icon.jpg" alt="Cencora"></p>
+</div>
 <div class="lh-when">
 <p>June 2025 – August 2025</p>
 </div>
@@ -257,7 +279,9 @@ window.Quarto = {
 </ul>
 </section>
 </div>
+</div>
 </section>
+</div>
 <div id="featured-work" class="lh-block">
 <div class="lh-wrap">
 <section id="recent-work" class="level2 lh-sec-head">
@@ -277,7 +301,6 @@ window.Quarto = {
 
 
 
-</div>
 
 
 <script id="quarto-html-after-body" type="application/javascript">
