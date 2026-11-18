@@ -63,20 +63,36 @@ Browse my projects below, and feel free to reach out.
 <!-- EDIT: fill in your job. Copy the whole ::: {.lh-job} block to add another role. -->
 ::: {.lh-job}
 ::: {.lh-when}
-Start date – Present
+Jan 2026 – Present
 :::
 
-### Job title
+### Data Visualization Specialist I
 
 ::: {.lh-org}
-Employer · City
+Cencora · Conshohocken, PA
 :::
 
-- What you do, or an outcome you're proud of
-- Tools you use
+- Work directly with Power BI (Desktop and Service), Claude, VSCode, MCP servers, Confluence
+- Develop user assistance resources and learning materials to support enterprise-wide adoption of Copilot across M365 products
+- Support migration from Power BI Premium to Microsoft Fabric capacities SKUs and from SAP BOBJs to Power BI
+:::
+
+::: {.lh-job}
+::: {.lh-when}
+June 2025 – August 2025
+:::
+
+### Data and Analytics Intern
+
+::: {.lh-org}
+Cencora · Conshohocken, PA
+:::
+
+- Worked with the IT team responsible for ensuring seamless access, usability, and integrity of enterprise data for customers
+- Led an initiative to evaluate the effectiveness of Copilot integration within Power BI to enhance end-user productivity
 :::
 :::
-:::
+
 
 ::: {.lh-block #featured-work}
 ::: {.lh-wrap}
