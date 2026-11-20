@@ -6,7 +6,11 @@ title: "Resume"
 
 ::: {.lh-block}
 ::: {.lh-wrap}
+::: {.lh-sec-head}
 ## Resume
+
+[See my skills linked to the projects behind them →](skills.qmd){.lh-mono}
+:::
 
 ```{=html}
 <section class="lh-viewer" data-lh-viewer data-check data-thumb="">

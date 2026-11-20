@@ -163,7 +163,7 @@
     buttons.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
     rows.forEach(function (r) { r.classList.remove("hit"); });
     document.querySelector(".lh-courses").classList.remove("filtering");
-    panel.textContent = "Pick a skill above to see the projects and work behind it.";
+    panel.textContent = "Click a skill to see the projects and work behind it.";
   };
   buttons.forEach(function (btn) {
     btn.addEventListener("click", function () {
@@ -172,7 +172,8 @@
       btn.setAttribute("aria-pressed", "true");
       panel.innerHTML = btn.getAttribute("data-used").split(";").map(function (pair) {
         var bits = pair.split("|");
-        return '<a href="' + esc(bits[1]) + '">' + esc(bits[0]) + " →</a>";
+        var ext = /^https?:/.test(bits[1]) && bits[1].indexOf(location.host) < 0;
+        return '<a href="' + esc(bits[1]) + '"' + (ext ? ' target="_blank" rel="noopener"' : "") + ">" + esc(bits[0]) + (ext ? " ↗" : " →") + "</a>";
       }).join("");
       var ps = (btn.getAttribute("data-p") || "").split(" ").filter(Boolean);
       if (ps.length) {

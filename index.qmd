@@ -87,6 +87,7 @@ Browse my projects below, and feel free to reach out.
 ```{=html}
 <!-- EDIT: the Greener Pastures spotlight. Links and numbers live here; styling is .lh-spot in styles.css. -->
 <section class="lh-spot" aria-labelledby="spot-title">
+  <a class="lh-bb" href="https://benevolentbandwidth.org/" target="_blank" rel="noopener" title="The Benevolent Bandwidth Foundation"><img src="assets/b2_logo.png" alt="The Benevolent Bandwidth Foundation"></a>
   <div class="lh-spot-text">
     <span class="lh-spot-tag">From research to real tool</span>
     <h2 id="spot-title">Greener Pastures, now an open-source delivery tool</h2>
@@ -141,6 +142,25 @@ Cencora · Conshohocken, PA
 
 ::: {.lh-job tabindex="0"}
 ::: {.lh-tl-node}
+<img src="assets/gu_logo1.png" alt="Georgetown University">
+:::
+
+::: {.lh-when}
+August 2025 – December 2025
+:::
+
+### Teaching Assistant
+
+::: {.lh-org}
+Georgetown University · Washington, DC
+:::
+
+- TA for DSAN 5100: Probabilistic Modeling and Statistical Computing
+- Graded assignments and held office hours
+:::
+
+::: {.lh-job tabindex="0"}
+::: {.lh-tl-node}
 <img src="assets/cencora-icon.jpg" alt="Cencora">
 :::
 
@@ -156,6 +176,43 @@ Cencora · Conshohocken, PA
 
 - Worked with the IT team responsible for ensuring seamless access, usability, and integrity of enterprise data for customers
 - Led an initiative to evaluate the effectiveness of Copilot integration within Power BI to enhance end-user productivity
+:::
+
+::: {.lh-job tabindex="0"}
+::: {.lh-tl-node}
+<img src="assets/gu_logo1.png" alt="Georgetown University">
+:::
+
+::: {.lh-when}
+December 2024 – December 2025
+:::
+
+### Leadership Committee, Founding Member
+
+::: {.lh-org}
+Georgetown Women in Data · Washington, DC
+:::
+
+- Helped lead an organization empowering women in data at Georgetown through career-focused events and women-centered gatherings
+- Led all communication and member engagement, using Mailchimp and Canva
+:::
+
+::: {.lh-job tabindex="0"}
+::: {.lh-tl-node}
+<img src="assets/gtown_sports.svg" alt="Georgetown University">
+:::
+
+::: {.lh-when}
+August 2024 – May 2025
+:::
+
+### Athletics Event Assistant
+
+::: {.lh-org}
+Georgetown University · Washington, DC
+:::
+
+- Supported operations for five collegiate athletic teams, including event setup, scorekeeping, and statistics
 :::
 :::
 :::
