@@ -10,6 +10,7 @@ date: 2025-12-10
 image: thumb.jpg
 course: "DSAN 5550"
 course-name: "Data Science & Climate Change"
+school: "Georgetown University"
 term: "Fall 2025"
 team: "Solo"
 kind: "Paper + poster"

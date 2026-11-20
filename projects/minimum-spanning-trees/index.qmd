@@ -9,6 +9,7 @@ date: 2023-05-12
 image: thumb.jpg
 course: "MATH 210"
 course-name: "Linear Optimization"
+school: "Haverford College"
 term: "Spring 2023"
 team: "With Mitali Kessinger"
 kind: "Paper + slides"

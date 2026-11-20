@@ -10,6 +10,7 @@ date: 2022-12-08
 image: thumb.jpg
 course: "ECON 304"
 course-name: "Introduction to Econometrics"
+school: "Haverford College"
 term: "Fall 2022"
 team: "Solo"
 kind: "Paper"

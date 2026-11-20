@@ -8,6 +8,7 @@ categories: [Data Science]
 date: 2025-04-15
 image: thumb.jpg
 course: "Scholarship"
+school: "Haverford College"
 term: "Spring 2025"
 kind: "Website"
 tools: ["Data visualization"]

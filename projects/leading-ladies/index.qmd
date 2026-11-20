@@ -9,6 +9,7 @@ categories: [Data Science]
 date: 2025-08-11
 image: thumb.jpg
 course: "DSAN 5650"
+school: "Georgetown University"
 term: "Summer 2025"
 team: "Solo"
 kind: "Website"

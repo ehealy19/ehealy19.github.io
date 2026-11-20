@@ -10,6 +10,7 @@ date: 2024-05-01
 image: thumb.jpg
 course: "ECON 396"
 course-name: "Senior Thesis, Haverford College"
+school: "Haverford College"
 term: "Spring 2024"
 team: "Solo"
 kind: "Thesis"

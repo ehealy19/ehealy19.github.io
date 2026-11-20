@@ -5,7 +5,7 @@
   Runs only on pages that have a `course:` field.
 
   Fields read: title, description, categories (first one = subject), image,
-  course, course-name, term, team, tools (list), review (true/false),
+  course, course-name, school, term, team, tools (list), review (true/false),
   materials (list of: label, file OR url, type = pdf | site | code | link)
 ]]
 
@@ -45,6 +45,7 @@ function Pandoc(doc)
   local key = subject_key[subject] or "ds"
   local course = s(m.course) or ""
   local course_name = s(m["course-name"])
+  local school = s(m.school)
   local term = s(m.term)
   local team = s(m.team)
   local thumb = s(m.image)
@@ -83,6 +84,7 @@ function Pandoc(doc)
   -- facts box
   local facts = { '<div class="lh-facts"><dl>' }
   facts[#facts + 1] = "<div><dt>Course</dt><dd>" .. esc(course) .. (course_name and (": " .. esc(course_name)) or "") .. "</dd></div>"
+  if school then facts[#facts + 1] = "<div><dt>School</dt><dd>" .. esc(school) .. "</dd></div>" end
   if term then facts[#facts + 1] = "<div><dt>When</dt><dd>" .. esc(term) .. "</dd></div>" end
   if team then facts[#facts + 1] = "<div><dt>Team</dt><dd>" .. esc(team) .. "</dd></div>" end
   if #tools_html > 0 then facts[#facts + 1] = "<div><dt>Tools</dt><dd>" .. tools .. "</dd></div>" end

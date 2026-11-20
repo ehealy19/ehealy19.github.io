@@ -8,6 +8,7 @@ date: 2022-05-04
 image: thumb.jpg
 course: "MATH B210"
 course-name: "Differential Equations"
+school: "Bryn Mawr College"
 term: "Spring 2022"
 team: "Solo"
 kind: "Paper"

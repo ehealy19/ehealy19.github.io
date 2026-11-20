@@ -30,6 +30,7 @@ date: 2025-04-30                # used only for sorting (newest first)
 image: thumb.jpg
 course: "DSAN 5300"
 course-name: "Optional full course name"
+school: "Georgetown University"  # shown under Course on the project page
 term: "Spring 2025"
 team: "Team of 4"
 kind: "Report + poster"         # label on the card image

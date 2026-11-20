@@ -9,6 +9,7 @@ date: 2023-12-01
 image: thumb.jpg
 course: "MATH 382"
 course-name: "Modeling & Differential Equations"
+school: "Haverford College"
 term: "Fall 2023"
 team: "Solo"
 kind: "Paper + slides"

@@ -8,6 +8,7 @@ categories: [Economics]
 date: 2021-12-09
 image: thumb.jpg
 course: "ECON 203"
+school: "Haverford College"
 term: "Fall 2021"
 team: "Team of 4"
 kind: "Paper"

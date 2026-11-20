@@ -9,6 +9,7 @@ categories: [Data Science]
 date: 2025-04-29
 image: thumb.jpg
 course: "DSAN 6600"
+school: "Georgetown University"
 term: "Spring 2025"
 team: "Team of 4"
 kind: "Report + slides"

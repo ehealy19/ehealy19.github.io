@@ -8,6 +8,7 @@ categories: [Computer Science]
 date: 2023-11-30
 image: thumb.jpg
 course: "COMP SCI 106"
+school: "Haverford College"
 term: "Fall 2023"
 team: "With Emily Oh"
 kind: "Code + slides"
