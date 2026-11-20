@@ -8,7 +8,7 @@ categories: [Data Science]
 date: 2025-12-05
 image: thumb.jpg
 course: "DSAN 6000"
-course-name: "Big Data Analytics"
+course-name: "Big Data and Cloud Computing"
 school: "Georgetown University"
 term: "Fall 2025"
 team: "Team of 4"

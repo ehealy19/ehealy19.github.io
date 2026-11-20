@@ -7,6 +7,7 @@ categories: [Data Science]
 date: 2025-11-20
 image: thumb.jpg
 course: "DSAN 6300"
+course-name: "Database Systems and SQL"
 school: "Georgetown University"
 term: "Fall 2025"
 team: "Solo"

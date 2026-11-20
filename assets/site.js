@@ -130,3 +130,23 @@
     if (tabs.length) show(tabs[0]);
   });
 })();
+
+// Email button: click copies the address and briefly shows "Copied".
+(function () {
+  document.querySelectorAll("[data-copy-email]").forEach(function (btn) {
+    var addr = btn.getAttribute("data-copy-email");
+    var text = btn.querySelector(".lh-email-text");
+    var status = document.querySelector("[data-copy-status]");
+    var timer;
+    btn.addEventListener("click", function () {
+      if (!navigator.clipboard) { window.location.href = "mailto:" + addr; return; }
+      navigator.clipboard.writeText(addr).then(function () {
+        clearTimeout(timer);
+        btn.classList.add("copied");
+        text.textContent = "Copied";
+        if (status) status.textContent = "Email address copied";
+        timer = setTimeout(function () { btn.classList.remove("copied"); text.textContent = addr; if (status) status.textContent = ""; }, 1600);
+      }).catch(function () { window.location.href = "mailto:" + addr; });
+    });
+  });
+})();

@@ -9,6 +9,7 @@ categories: [Data Science]
 date: 2024-12-01
 image: thumb.jpg
 course: "DSAN 5200"
+course-name: "Advanced Data Visualization"
 school: "Georgetown University"
 term: "Fall 2024"
 kind: "Website"

@@ -44,6 +44,15 @@ I earned a Master of Science in Data Science and Analytics from Georgetown Unive
 My work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.
 
 Browse my projects below, and feel free to reach out.
+
+```{=html}
+<!-- EDIT: email button. Click copies the address; if copying isn't possible it opens an email instead. -->
+<button type="button" class="lh-btn lh-email" data-copy-email="emh201@georgetown.edu" aria-label="Copy email address emh201@georgetown.edu">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+  <span class="lh-email-text">emh201@georgetown.edu</span>
+</button>
+<span class="lh-sr" aria-live="polite" data-copy-status></span>
+```
 :::
 
 ```{=html}

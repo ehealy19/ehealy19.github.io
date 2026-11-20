@@ -8,6 +8,7 @@ categories: [Economics]
 date: 2023-05-01
 image: thumb.jpg
 course: "ECON 384"
+course-name: "Labor Economics"
 school: "Haverford College"
 term: "Spring 2023"
 team: "Solo"

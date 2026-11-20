@@ -225,3 +225,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.12; t
   .lh-spot { grid-template-columns: 1fr; padding: 26px 22px; gap: 24px; box-shadow: none; }
   .lh-spot-stats dd { font-size: 28px; }
 }
+
+/* Email copy button (About section) */
+.lh-email { margin-top: 6px; }
+.lh-email .lh-email-text { font: 500 14px/1 var(--mono); min-width: 21ch; text-align: left; }
+.lh-email.copied { background: var(--accent); border-color: var(--accent); color: #fff; }
+.lh-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

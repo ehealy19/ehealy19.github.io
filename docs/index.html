@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-image','listing-categories','listing-date','listing-course','listing-term','listing-tools','listing-kind','listing-featured','listing-review',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-categories","listing-date","listing-image","listing-course","listing-school","listing-term","listing-team","listing-kind","listing-tools","listing-materials","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-review","listing-course-name","listing-featured"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-categories","listing-date","listing-image","listing-course","listing-course-name","listing-school","listing-term","listing-team","listing-kind","listing-tools","listing-materials","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-review","listing-featured"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -214,6 +214,12 @@ window.Quarto = {
 <p>I earned a Master of Science in Data Science and Analytics from Georgetown University, after a B.A. in Quantitative Economics with a minor in Applied Mathematics from Haverford College.</p>
 <p>My work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.</p>
 <p>Browse my projects below, and feel free to reach out.</p>
+<!-- EDIT: email button. Click copies the address; if copying isn't possible it opens an email instead. -->
+<button type="button" class="lh-btn lh-email" data-copy-email="emh201@georgetown.edu" aria-label="Copy email address emh201@georgetown.edu">
+  <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"></path></svg>
+  <span class="lh-email-text">emh201@georgetown.edu</span>
+</button>
+<span class="lh-sr" aria-live="polite" data-copy-status=""></span>
 </div>
 <!-- EDIT: each card is a link to the school's site. To move a photo's focus, change object-position (e.g. "center 60%"). -->
 <div class="lh-edu">
