@@ -61,6 +61,7 @@ Browse my projects below, and feel free to reach out.
   <a class="lh-edu-photo" href="https://analytics.georgetown.edu/" target="_blank" rel="noopener" aria-label="Georgetown Data Science and Analytics program (opens in a new tab)">
     <img class="bg" src="assets/gu_campus.jpg" alt="" style="object-position:center 35%">
     <span class="lh-visit">Visit program ↗</span>
+    <span class="lh-award-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22l4.5-2.5 4.5 2.5L15 14.5"/></svg>Returning Student Scholar</span>
     <div class="txt">
       <span class="lh-edu-mark"><img src="assets/gtown_sports.svg" alt=""></span>
       <div><div class="lh-mono">M.S.</div><h3>Georgetown University</h3><p>Data Science and Analytics</p></div>
@@ -69,6 +70,7 @@ Browse my projects below, and feel free to reach out.
   <a class="lh-edu-photo" href="https://www.haverford.edu/economics" target="_blank" rel="noopener" aria-label="Haverford Economics department (opens in a new tab)">
     <img class="bg" src="assets/haverford_campus.jpg" alt="" style="object-position:center 80%">
     <span class="lh-visit">Visit department ↗</span>
+    <span class="lh-award-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22l4.5-2.5 4.5 2.5L15 14.5"/></svg>John B. Hurford Scholar</span>
     <div class="txt">
       <span class="lh-edu-mark"><img src="assets/hav_mark.png" alt=""></span>
       <div><div class="lh-mono">B.A.</div><h3>Haverford College</h3><p>Quantitative Economics · Minor in Applied Mathematics</p></div>

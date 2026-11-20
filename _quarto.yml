@@ -4,7 +4,9 @@ project:
   render:
     - index.qmd
     - projects.qmd
+    - skills.qmd
     - resume.qmd
+    - about-site.qmd
     - projects/*/index.qmd  # one page per project
   resources:                # files copied into docs/ as-is
     - .nojekyll
@@ -27,10 +29,13 @@ website:
         href: index.qmd
       - text: Projects
         href: projects.qmd
+      - text: Skills
+        href: skills.qmd
       - text: Resume
         href: resume.qmd
   page-footer:
     left: "© 2026 Lizzie Healy"
+    center: "Built with Quarto and hosted on GitHub Pages. Designed and coded with help from Claude; all projects and writing are my own. [How this site was made](about-site.qmd)"
     right:
       - text: LinkedIn
         href: https://www.linkedin.com/in/lizzie-healy-4465a8240

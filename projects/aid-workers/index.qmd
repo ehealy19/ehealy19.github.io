@@ -8,7 +8,7 @@ categories: [Data Science]
 date: 2025-04-15
 image: thumb.jpg
 course: "Scholarship"
-school: "Haverford College"
+school: "Georgetown University"
 term: "Spring 2025"
 kind: "Website"
 tools: ["Data visualization"]
@@ -20,3 +20,12 @@ review: true        # draft text: edit the description, then delete this line
 ---
 
 <!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->
+
+```{=html}
+<!-- EDIT: scholarship callout. Add the date or what the application involved if you'd like. -->
+<aside class="lh-award">
+  <span class="lh-award-tag">Award winner</span>
+  <h2>Returning Student Scholarship, Georgetown University</h2>
+  <p>This project won me Georgetown's Returning Student Scholarship, awarded to Data Science and Analytics students who show excellence in data visualization, technical proficiency, creative storytelling, and dedication to the program during their first year of study.</p>
+</aside>
+```

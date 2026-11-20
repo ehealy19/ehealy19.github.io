@@ -1,0 +1,19 @@
+---
+title: "About this site"
+---
+
+::: {.lh-block}
+::: {.lh-wrap .lh-prose}
+## About this site
+
+<!-- EDIT: this page is linked from the footer. Keep it short and accurate. -->
+
+**Built with:** [Quarto](https://quarto.org), with custom HTML, CSS and JavaScript, hosted on GitHub Pages. The source is on [GitHub](https://github.com/ehealy19/ehealy19.github.io).
+
+**Built with AI:** I designed and coded the site with help from Claude, Anthropic's AI assistant. Claude helped with the layout, the design prototype, the code, and first drafts of the project summaries.
+
+**My part:** All the projects are my own work. I chose the structure and design, reviewed every change, and edited all of the text.
+
+I work on bringing AI into business intelligence workflows, so building this site with an AI collaborator was a deliberate choice: it's how I like to work.
+:::
+:::

@@ -1,0 +1,104 @@
+---
+title: "Skills & Coursework"
+---
+
+::: {.lh-block}
+::: {.lh-wrap}
+::: {.lh-sec-head}
+## Skills & Coursework
+
+[Click a skill to see where I've used it]{.lh-mono}
+:::
+
+```{=html}
+<!-- EDIT: skills. Each chip is one skill. data-used lists where it was used as "Label|link" pairs separated by ";".
+     A chip with no data-used shows as a plain tag. Courses are further down; data-p is the project folder name. -->
+<div class="lh-skills" data-skills>
+<div class="lh-skill-group"><h3>Languages and techniques</h3><div class="lh-skill-chips">
+<button type="button" class="lh-skill" aria-pressed="false" data-used="DMV Arrests|projects/dmv-arrests/index.html;Decoding the Divine|projects/decoding-the-divine/index.html;Digital Footprints|projects/digital-footprints/index.html" data-p="dmv-arrests decoding-the-divine digital-footprints">Python<span class="n">3</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="DMV Arrests|projects/dmv-arrests/index.html" data-p="dmv-arrests">R<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="May Delays|projects/may-delays/index.html" data-p="may-delays">SQL<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Wordle|projects/wordle/index.html" data-p="wordle">Java<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Cutting the Cheese|projects/cutting-the-cheese/index.html" data-p="cutting-the-cheese">MATLAB<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Salaries &amp; Sports|projects/salaries-and-sports/index.html" data-p="salaries-and-sports">Stata<span class="n">1</span></button>
+<span class="lh-skill plain">LaTeX</span>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="This website|https://github.com/ehealy19/ehealy19.github.io" data-p="">HTML<span class="n">1</span></button>
+<span class="lh-skill plain">OOP</span>
+</div></div>
+<div class="lh-skill-group"><h3>Libraries</h3><div class="lh-skill-chips">
+<span class="lh-skill plain">pandas</span>
+<span class="lh-skill plain">NumPy</span>
+<span class="lh-skill plain">Matplotlib</span>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Decoding the Divine|projects/decoding-the-divine/index.html" data-p="decoding-the-divine">scikit-learn<span class="n">1</span></button>
+<span class="lh-skill plain">PyTorch</span>
+<span class="lh-skill plain">Keras</span>
+<span class="lh-skill plain">Seaborn</span>
+<span class="lh-skill plain">ggplot2</span>
+</div></div>
+<div class="lh-skill-group"><h3>Tools and platforms</h3><div class="lh-skill-chips">
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Cencora (work)|index.html#experience" data-p="">Power BI<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Cencora (work)|index.html#experience" data-p="">Microsoft Fabric<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Cencora (work)|index.html#experience" data-p="">VS Code<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="This website|https://github.com/ehealy19/ehealy19.github.io" data-p="">Git<span class="n">1</span></button>
+<span class="lh-skill plain">Databricks</span>
+<span class="lh-skill plain">Qlik Sense</span>
+<span class="lh-skill plain">Qualtrics</span>
+<span class="lh-skill plain">Canva</span>
+</div></div>
+<div class="lh-skill-group"><h3>Methods</h3><div class="lh-skill-chips">
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Behind the Box Office|projects/behind-the-box-office/index.html;Salaries &amp; Sports|projects/salaries-and-sports/index.html" data-p="behind-the-box-office salaries-and-sports">Regression and fixed effects<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Act 39|projects/act-39/index.html;Leading Ladies|projects/leading-ladies/index.html" data-p="act-39 leading-ladies">Causal inference<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Decoding the Divine|projects/decoding-the-divine/index.html;Economics of Film|projects/economics-of-film/index.html;Food for Thought|projects/food-for-thought/index.html" data-p="decoding-the-divine economics-of-film food-for-thought">Machine learning<span class="n">3</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Digital Footprints|projects/digital-footprints/index.html;Leading Ladies|projects/leading-ladies/index.html" data-p="digital-footprints leading-ladies">NLP and sentiment analysis<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Digital Footprints|projects/digital-footprints/index.html" data-p="digital-footprints">Big data (PySpark, AWS)<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="DMV Arrests|projects/dmv-arrests/index.html" data-p="dmv-arrests">Time series and geospatial<span class="n">1</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="DMV Arrests|projects/dmv-arrests/index.html;Education &amp; Happiness|projects/education-happiness/index.html" data-p="dmv-arrests education-happiness">Hypothesis testing<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Greener Pastures|projects/greener-pastures/index.html;Minimum Spanning Trees|projects/minimum-spanning-trees/index.html" data-p="greener-pastures minimum-spanning-trees">Optimization<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Cutting the Cheese|projects/cutting-the-cheese/index.html;Solow-Swan|projects/solow-swan/index.html" data-p="cutting-the-cheese solow-swan">Differential equations and simulation<span class="n">2</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Women&#x27;s Travel Guide|projects/womens-travel-guide/index.html;Aid Workers|projects/aid-workers/index.html;May Delays|projects/may-delays/index.html" data-p="womens-travel-guide aid-workers may-delays">Data visualization<span class="n">3</span></button>
+<button type="button" class="lh-skill" aria-pressed="false" data-used="Movie Recommender|projects/movie-recommender/index.html;Economics of Film|projects/economics-of-film/index.html" data-p="movie-recommender economics-of-film">Web scraping and APIs<span class="n">2</span></button>
+</div></div>
+</div>
+<div class="lh-used" data-used-panel aria-live="polite"><span class="lh-mono">Used in</span><span class="lh-used-list">Pick a skill above to see the projects and work behind it.</span></div>
+```
+:::
+:::
+
+::: {.lh-block}
+::: {.lh-wrap}
+## Coursework
+
+```{=html}
+<div class="lh-courses">
+<section class="lh-course-col"><h3>Georgetown University</h3><p class="lh-mono">M.S., Data Science and Analytics</p><ul>
+<li data-p="food-for-thought"><span class="code">DSAN 5000</span><span class="name">Introduction to Data Science and Analytics</span><a href="projects/food-for-thought/index.html">Food for Thought →</a></li>
+<li data-p="dmv-arrests"><span class="code">DSAN 5100</span><span class="name">Probabilistic Modeling and Statistical Computing</span><a href="projects/dmv-arrests/index.html">DMV Arrests →</a></li>
+<li data-p="womens-travel-guide"><span class="code">DSAN 5200</span><span class="name">Advanced Data Visualization</span><a href="projects/womens-travel-guide/index.html">Women&#x27;s Travel Guide →</a></li>
+<li data-p="economics-of-film"><span class="code">DSAN 5300</span><span class="name">Statistical Learning for Analysis</span><a href="projects/economics-of-film/index.html">Economics of Film →</a></li>
+<li data-p="movie-recommender"><span class="code">DSAN 5400</span><span class="name">Computational Linguistics with Advanced Python</span><a href="projects/movie-recommender/index.html">Movie Recommender →</a></li>
+<li data-p="greener-pastures"><span class="code">DSAN 5550</span><span class="name">Data Science &amp; Climate Change</span><a href="projects/greener-pastures/index.html">Greener Pastures →</a></li>
+<li data-p="leading-ladies"><span class="code">DSAN 5650</span><span class="name">Causal Inference for Computational Social Science</span><a href="projects/leading-ladies/index.html">Leading Ladies →</a></li>
+<li data-p="digital-footprints"><span class="code">DSAN 6000</span><span class="name">Big Data and Cloud Computing</span><a href="projects/digital-footprints/index.html">Digital Footprints →</a></li>
+<li data-p="may-delays"><span class="code">DSAN 6300</span><span class="name">Database Systems and SQL</span><a href="projects/may-delays/index.html">May Delays →</a></li>
+<li data-p="decoding-the-divine"><span class="code">DSAN 6600</span><span class="name">Neural Networks &amp; Advanced Deep Learning</span><a href="projects/decoding-the-divine/index.html">Decoding the Divine →</a></li>
+<li><span class="code"></span><span class="name">R and Python Data Analytics</span></li>
+</ul></section>
+<section class="lh-course-col"><h3>Haverford College</h3><p class="lh-mono">B.A., Economics · Minor in Applied Mathematics</p><ul>
+<li data-p="education-happiness"><span class="code">ECON 203</span><span class="name">Statistical Methods in Economics</span><a href="projects/education-happiness/index.html">Education &amp; Happiness →</a></li>
+<li data-p="salaries-and-sports"><span class="code">ECON 304</span><span class="name">Intermediate Econometrics</span><a href="projects/salaries-and-sports/index.html">Salaries &amp; Sports →</a></li>
+<li data-p="act-39"><span class="code">ECON 384</span><span class="name">Labor Economics</span><a href="projects/act-39/index.html">Act 39 →</a></li>
+<li data-p="behind-the-box-office"><span class="code">ECON 396</span><span class="name">Senior Thesis</span><a href="projects/behind-the-box-office/index.html">Behind the Box Office →</a></li>
+<li data-p="minimum-spanning-trees"><span class="code">MATH 210</span><span class="name">Linear Optimization</span><a href="projects/minimum-spanning-trees/index.html">Minimum Spanning Trees →</a></li>
+<li data-p="cutting-the-cheese"><span class="code">MATH 382</span><span class="name">Modeling &amp; Differential Equations</span><a href="projects/cutting-the-cheese/index.html">Cutting the Cheese →</a></li>
+<li data-p="solow-swan"><span class="code">MATH B210</span><span class="name">Differential Equations · Bryn Mawr College</span><a href="projects/solow-swan/index.html">Solow-Swan →</a></li>
+<li data-p="wordle"><span class="code">COMP SCI 106</span><span class="name">Introduction to Data Structures</span><a href="projects/wordle/index.html">Wordle →</a></li>
+<li><span class="code"></span><span class="name">Macroeconomics and Microeconomics</span></li>
+<li><span class="code"></span><span class="name">Analysis</span></li>
+<li><span class="code"></span><span class="name">Linear Algebra</span></li>
+<li><span class="code"></span><span class="name">Multivariable Calculus</span></li>
+<li><span class="code"></span><span class="name">Scientific Computing</span></li>
+</ul></section>
+</div>
+```
+:::
+:::

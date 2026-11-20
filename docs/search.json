@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resume.html#resume",
+    "href": "resume.html#resume",
+    "title": "Resume",
+    "section": "Resume",
+    "text": "Resume\n\n  \n    Resume\n    Open in new tab ↗"
+  },
+  {
     "objectID": "projects.html#projects",
     "href": "projects.html#projects",
     "title": "Projects",
@@ -11,7 +18,7 @@
     "href": "index.html#about",
     "title": "Lizzie Healy",
     "section": "About",
-    "text": "About\n\n\nI earned a Master of Science in Data Science and Analytics from Georgetown University, after a B.A. in Quantitative Economics with a minor in Applied Mathematics from Haverford College.\nMy work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.\nBrowse my projects below, and feel free to reach out.\n\n\n  \n  emh201@georgetown.edu\n\n\n\n\n\n  \n    \n    Visit program ↗\n    \n      \n      M.S.Georgetown UniversityData Science and Analytics\n    \n  \n  \n    \n    Visit department ↗\n    \n      \n      B.A.Haverford CollegeQuantitative Economics · Minor in Applied Mathematics"
+    "text": "About\n\n\nI earned a Master of Science in Data Science and Analytics from Georgetown University, after a B.A. in Quantitative Economics with a minor in Applied Mathematics from Haverford College.\nMy work sits where economics meets machine learning: causal questions about film and labor markets, route optimization to cut delivery emissions, and large-scale text analysis of how cities talk online.\nBrowse my projects below, and feel free to reach out.\n\n\n  \n  emh201@georgetown.edu\n\n\n\n\n\n  \n    \n    Visit program ↗\n    Returning Student Scholar\n    \n      \n      M.S.Georgetown UniversityData Science and Analytics\n    \n  \n  \n    \n    Visit department ↗\n    John B. Hurford Scholar\n    \n      \n      B.A.Haverford CollegeQuantitative Economics · Minor in Applied Mathematics"
   },
   {
     "objectID": "index.html#experience",
@@ -28,10 +35,24 @@
     "text": "Recent work\nAll projects →"
   },
   {
-    "objectID": "resume.html#resume",
-    "href": "resume.html#resume",
-    "title": "Resume",
-    "section": "Resume",
-    "text": "Resume\n\n  \n    Resume\n    Open in new tab ↗"
+    "objectID": "skills.html#skills-coursework",
+    "href": "skills.html#skills-coursework",
+    "title": "Skills & Coursework",
+    "section": "Skills & Coursework",
+    "text": "Skills & Coursework\nClick a skill to see where I’ve used it"
+  },
+  {
+    "objectID": "skills.html#coursework",
+    "href": "skills.html#coursework",
+    "title": "Skills & Coursework",
+    "section": "Coursework",
+    "text": "Coursework\n\nGeorgetown UniversityM.S., Data Science and Analytics\nDSAN 5000Introduction to Data Science and AnalyticsFood for Thought →\nDSAN 5100Probabilistic Modeling and Statistical ComputingDMV Arrests →\nDSAN 5200Advanced Data VisualizationWomen's Travel Guide →\nDSAN 5300Statistical Learning for AnalysisEconomics of Film →\nDSAN 5400Computational Linguistics with Advanced PythonMovie Recommender →\nDSAN 5550Data Science & Climate ChangeGreener Pastures →\nDSAN 5650Causal Inference for Computational Social ScienceLeading Ladies →\nDSAN 6000Big Data and Cloud ComputingDigital Footprints →\nDSAN 6300Database Systems and SQLMay Delays →\nDSAN 6600Neural Networks & Advanced Deep LearningDecoding the Divine →\nR and Python Data Analytics\n\nHaverford CollegeB.A., Economics · Minor in Applied Mathematics\nECON 203Statistical Methods in EconomicsEducation & Happiness →\nECON 304Intermediate EconometricsSalaries & Sports →\nECON 384Labor EconomicsAct 39 →\nECON 396Senior ThesisBehind the Box Office →\nMATH 210Linear OptimizationMinimum Spanning Trees →\nMATH 382Modeling & Differential EquationsCutting the Cheese →\nMATH B210Differential Equations · Bryn Mawr CollegeSolow-Swan →\nCOMP SCI 106Introduction to Data StructuresWordle →\nMacroeconomics and Microeconomics\nAnalysis\nLinear Algebra\nMultivariable Calculus\nScientific Computing"
+  },
+  {
+    "objectID": "about-site.html#about-this-site",
+    "href": "about-site.html#about-this-site",
+    "title": "About this site",
+    "section": "About this site",
+    "text": "About this site\n\nBuilt with: Quarto, with custom HTML, CSS and JavaScript, hosted on GitHub Pages. The source is on GitHub.\nBuilt with AI: I designed and coded the site with help from Claude, Anthropic’s AI assistant. Claude helped with the layout, the design prototype, the code, and first drafts of the project summaries.\nMy part: All the projects are my own work. I chose the structure and design, reviewed every change, and edited all of the text.\nI work on bringing AI into business intelligence workflows, so building this site with an AI collaborator was a deliberate choice: it’s how I like to work."
   }
 ]

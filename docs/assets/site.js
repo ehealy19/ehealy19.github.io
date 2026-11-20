@@ -150,3 +150,35 @@
     });
   });
 })();
+
+// Skills page: click a skill to list where it was used and highlight matching courses.
+(function () {
+  var root = document.querySelector("[data-skills]");
+  if (!root) return;
+  var panel = document.querySelector("[data-used-panel] .lh-used-list");
+  var rows = document.querySelectorAll(".lh-courses li[data-p]");
+  var esc = function (s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var buttons = root.querySelectorAll("button.lh-skill");
+  var reset = function () {
+    buttons.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+    rows.forEach(function (r) { r.classList.remove("hit"); });
+    document.querySelector(".lh-courses").classList.remove("filtering");
+    panel.textContent = "Pick a skill above to see the projects and work behind it.";
+  };
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      if (btn.getAttribute("aria-pressed") === "true") { reset(); return; }
+      reset();
+      btn.setAttribute("aria-pressed", "true");
+      panel.innerHTML = btn.getAttribute("data-used").split(";").map(function (pair) {
+        var bits = pair.split("|");
+        return '<a href="' + esc(bits[1]) + '">' + esc(bits[0]) + " →</a>";
+      }).join("");
+      var ps = (btn.getAttribute("data-p") || "").split(" ").filter(Boolean);
+      if (ps.length) {
+        document.querySelector(".lh-courses").classList.add("filtering");
+        rows.forEach(function (r) { if (ps.indexOf(r.getAttribute("data-p")) > -1) r.classList.add("hit"); });
+      }
+    });
+  });
+})();
