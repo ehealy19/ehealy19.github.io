@@ -10,7 +10,7 @@ date: 2025-12-10
 image: thumb.jpg
 course: "DSAN 5550"
 course-name: "Data Science & Climate Change"
-term: "2025"
+term: "Fall 2025"
 team: "Solo"
 kind: "Paper + poster"
 tools: ["VROOM", "OSRM", "Route optimization"]
@@ -21,8 +21,16 @@ materials:
   - label: "Poster"
     file: poster.pdf
     type: pdf
+  - label: "Live tool"
+    url: https://delivery-optimizer--b2-delivery-optimizer.us-east4.hosted.app/
+    type: link
+  - label: "Open-source code"
+    url: https://github.com/benevolentbandwidth/delivery-optimizer
+    type: code
 featured: true      # shows on the home page under Recent work
 review: true        # draft text: edit the description, then delete this line
 ---
 
 <!-- Optional: write extra text here (results, your role, a figure). If left empty, the description above is shown. -->
+
+**Now an open-source tool.** [The Benevolent Bandwidth Foundation](https://benevolentbandwidth.org/) selected this project to be fully prototyped and open-sourced as the [Delivery Optimizer](https://delivery-optimizer--b2-delivery-optimizer.us-east4.hosted.app/), which lets small businesses upload their delivery addresses and get back an efficient route. The code is on [GitHub](https://github.com/benevolentbandwidth/delivery-optimizer), and there's a write-up on [Medium](https://medium.com/@kkovalenko_86987/b0af9a0133ef).

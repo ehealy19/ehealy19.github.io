@@ -71,6 +71,37 @@ Browse my projects below, and feel free to reach out.
 :::
 :::
 
+::: {.lh-block #spotlight}
+::: {.lh-wrap}
+```{=html}
+<!-- EDIT: the Greener Pastures spotlight. Links and numbers live here; styling is .lh-spot in styles.css. -->
+<section class="lh-spot" aria-labelledby="spot-title">
+  <div class="lh-spot-text">
+    <span class="lh-spot-tag">From research to real tool</span>
+    <h2 id="spot-title">Greener Pastures, now an open-source delivery tool</h2>
+    <p>My Georgetown capstone asked whether smarter routing could make a small business greener. Using real Mother's Day 2025 delivery data from a Pennsylvania florist, I compared the shop's manual routes with routes optimized by VROOM and OSRM.</p>
+    <p><a href="https://benevolentbandwidth.org/" target="_blank" rel="noopener">The Benevolent Bandwidth Foundation</a>, which builds AI tools for nonprofits and NGOs, selected the project to be fully prototyped and open-sourced. The resulting Delivery Optimizer lets small businesses like florists and dry cleaners upload their delivery addresses and get back an efficient route, saving time, fuel and emissions.</p>
+    <div class="lh-cta">
+      <a class="lh-btn primary" href="https://delivery-optimizer--b2-delivery-optimizer.us-east4.hosted.app/" target="_blank" rel="noopener">Try the live tool ↗</a>
+      <a class="lh-btn" href="https://github.com/benevolentbandwidth/delivery-optimizer" target="_blank" rel="noopener">Code on GitHub ↗</a>
+      <a class="lh-btn" href="https://medium.com/@kkovalenko_86987/b0af9a0133ef" target="_blank" rel="noopener">Medium article ↗</a>
+      <a class="lh-btn" href="projects/greener-pastures/index.html">Read my paper →</a>
+    </div>
+  </div>
+  <div class="lh-spot-stats">
+    <div class="lh-mono lh-spot-cap">Optimized vs. manual routes · Mother's Day 2025</div>
+    <dl>
+      <div><dt>Time saved</dt><dd>89<span> min</span></dd></div>
+      <div><dt>Distance saved</dt><dd>66.8<span> mi</span></dd></div>
+      <div><dt>Fewer trips</dt><dd>4</dd></div>
+      <div><dt>Cost saved</dt><dd><span>$</span>512.36</dd></div>
+    </dl>
+  </div>
+</section>
+```
+:::
+:::
+
 ::: {.lh-block #experience}
 ::: {.lh-wrap}
 ## Experience

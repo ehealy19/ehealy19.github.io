@@ -207,3 +207,21 @@ h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.12; t
 
 /* Each page draws its own heading, so hide Quarto's automatic title block */
 #title-block-header, header.quarto-title-block { display: none !important; }
+
+/* Spotlight: Greener Pastures → Benevolent Bandwidth (home page) */
+.lh-spot { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 36px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--ds); border-radius: 14px; padding: 36px 38px; box-shadow: 10px 10px 0 -1px #DCE8E4; }
+.lh-spot h2 { margin: 12px 0 16px; }
+.lh-spot p { color: var(--muted); max-width: 62ch; }
+.lh-spot p a { color: var(--accent); font-weight: 600; }
+.lh-spot .lh-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.lh-spot-tag { display: inline-block; font: 500 12px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ds); background: #E3F0EC; border: 1px solid #BFDcd4; padding: 6px 9px; border-radius: 6px; }
+.lh-spot-stats { background: linear-gradient(160deg, #EAF3F0, #E2ECF3); border-radius: 12px; padding: 22px 24px; }
+.lh-spot-cap { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+.lh-spot-stats dl { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; margin: 0; }
+.lh-spot-stats dt { font: 500 12.5px/1.3 var(--mono); color: var(--muted); }
+.lh-spot-stats dd { margin: 4px 0 0; font: 700 34px/1 var(--display); color: var(--ink); }
+.lh-spot-stats dd span { font-size: 18px; color: var(--muted); font-weight: 600; }
+@media (max-width: 820px) {
+  .lh-spot { grid-template-columns: 1fr; padding: 26px 22px; gap: 24px; box-shadow: none; }
+  .lh-spot-stats dd { font-size: 28px; }
+}
