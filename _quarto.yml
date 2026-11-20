@@ -11,6 +11,9 @@ project:
   resources:                # files copied into docs/ as-is
     - .nojekyll
     - assets/site.js
+    - assets/social-card.png
+    - assets/apple-touch-icon.png
+    - assets/logo.svg
     - "assets/*.pdf"
     - "projects/*/*.pdf"
     - "projects/*/code/**"
@@ -20,6 +23,10 @@ website:
   title: "Lizzie Healy"
   site-url: https://ehealy19.github.io
   description: "Data science, economics and applied math projects by Lizzie Healy."
+  favicon: assets/logo.svg          # browser-tab icon
+  image: assets/social-card.png     # default link-preview image (1200 x 630); project pages use their own thumb.jpg
+  open-graph: true                  # link previews on LinkedIn, Slack, iMessage, etc.
+  twitter-card: true
   page-navigation: false
   navbar:
     logo: assets/logo.svg
@@ -37,6 +44,8 @@ website:
     left: "© 2026 Lizzie Healy"
     center: "Built with Quarto and hosted on GitHub Pages. Designed and coded with help from Claude; all projects and writing are my own. [How this site was made](about-site.qmd)"
     right:
+      - text: Email
+        href: "mailto:emh201@georgetown.edu"
       - text: LinkedIn
         href: https://www.linkedin.com/in/lizzie-healy-4465a8240
       - text: GitHub
@@ -57,6 +66,7 @@ format:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
           <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     include-after-body:
       - text: |

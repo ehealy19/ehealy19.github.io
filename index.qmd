@@ -19,6 +19,7 @@ listing:
       <div class="lh-eyebrow">Data science · Economics · Applied math</div>
       <h1>Lizzie Healy</h1>
       <p class="lh-role">Data scientist and analyst</p>
+      <p class="lh-avail"><span class="dot" aria-hidden="true"></span>Open to data scientist and analyst roles · Philadelphia area</p>
       <p class="lh-lede">I'm passionate about data accuracy and pre-processing, and I enjoy making data accessible through clear presentation and communication of results.</p>
       <div class="lh-cta">
         <a class="lh-btn primary" href="projects.html">View projects
